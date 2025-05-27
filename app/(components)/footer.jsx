@@ -40,11 +40,10 @@ function Footer() {
                 <li className=" font-bold hover:text-[#135254]">
                   <Link href="/affiliateDisclosure">Affiliate Disclosure</Link>
                 </li>
-                /
               </ul>
             </nav>
           </div>
-          <div className="flex gap-x-2 sm:gap-x-3">
+          <div className="sm:flex  gap-x-2 sm:gap-x-3">
             <a href="" target="_blank">
               <Instagram size={30} />
             </a>
