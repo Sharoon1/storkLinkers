@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="shadow-[0_-5px_15px_-5px_rgba(0,0,0,0.2)]">
       <div className="py-10 bg-white  ">
-        <div className="flex justify-center items-center bg-green-50 gap-3 sm:gap-20 px-5 sm:px-20 py-5 ">
+        <div className="flex justify-center items-center bg-emerald-50 gap-3 sm:gap-20 px-5 sm:px-20 py-5 ">
           <div>
             <strong>
               @ {curentYear} Stork Linkers, <br />

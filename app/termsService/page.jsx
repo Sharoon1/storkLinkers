@@ -253,7 +253,7 @@ function TermsService() {
           by our Privacy Policy. To view our Privacy Policy, please see{" "}
           <a href="/privacyPolicy">Privacy Policy</a>
         </p>
-        <h3>SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS</h3>
+        <h3 id="section11">SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS</h3>
         <p>
           Occasionally there may be information on our site or in the Service
           that contains typographical errors, inaccuracies or omissions that may
@@ -370,36 +370,39 @@ function TermsService() {
           responsibility and assume no liability for any comments posted by you
           or any third-party. SECTION 10 - PERSONAL INFORMATION Your submission
           of personal information through the store is governed by our Privacy
-          Policy. To view our Privacy Policy, please see [LINK TO PRIVACY
-          POLICY] SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS Occasionally
-          there may be information on our site or in the Service that contains
-          typographical errors, inaccuracies or omissions that may relate to
-          product descriptions, pricing, promotions, offers, product shipping
-          charges, transit times and availability. We reserve the right to
-          correct any errors, inaccuracies or omissions, and to change or update
-          information or cancel orders if any information in the Service or on
-          any related website is inaccurate at any time without prior notice
-          (including after you have submitted your order). We undertake no
-          obligation to update, amend or clarify information in the Service or
-          on any related website, including without limitation, pricing
-          information, except as required by law. No specified update or refresh
-          date applied in the Service or on any related website, should be taken
-          to indicate that all information in the Service or on any related
-          website has been modified or updated. SECTION 12 - PROHIBITED USES In
-          addition to other prohibitions as set forth in the Terms of Service,
-          you are prohibited from using the site or its content: (a) for any
-          unlawful purpose; (b) to solicit others to perform or participate in
-          any unlawful acts; (c) to violate any international, federal,
-          provincial or state regulations, rules, laws, or local ordinances; (d)
-          to infringe upon or violate our intellectual property rights or the
-          intellectual property rights of others; (e) to harass, abuse, insult,
-          harm, defame, slander, disparage, intimidate, or discriminate based on
-          gender, sexual orientation, religion, ethnicity, race, age, national
-          origin, or disability; (f) to submit false or misleading information;
-          (g) to upload or transmit viruses or any other type of malicious code
-          that will or may be used in any way that will affect the functionality
-          or operation of the Service or of any related website, other websites,
-          or the Internet; (h) to collect or track the personal information of
+          Policy. To view our Privacy Policy, please see{" "}
+          <a className="hover:text-blue-500" href="#section11">
+            SECTION 11{" "}
+          </a>{" "}
+          - ERRORS, INACCURACIES AND OMISSIONS Occasionally there may be
+          information on our site or in the Service that contains typographical
+          errors, inaccuracies or omissions that may relate to product
+          descriptions, pricing, promotions, offers, product shipping charges,
+          transit times and availability. We reserve the right to correct any
+          errors, inaccuracies or omissions, and to change or update information
+          or cancel orders if any information in the Service or on any related
+          website is inaccurate at any time without prior notice (including
+          after you have submitted your order). We undertake no obligation to
+          update, amend or clarify information in the Service or on any related
+          website, including without limitation, pricing information, except as
+          required by law. No specified update or refresh date applied in the
+          Service or on any related website, should be taken to indicate that
+          all information in the Service or on any related website has been
+          modified or updated. SECTION 12 - PROHIBITED USES In addition to other
+          prohibitions as set forth in the Terms of Service, you are prohibited
+          from using the site or its content: (a) for any unlawful purpose; (b)
+          to solicit others to perform or participate in any unlawful acts; (c)
+          to violate any international, federal, provincial or state
+          regulations, rules, laws, or local ordinances; (d) to infringe upon or
+          violate our intellectual property rights or the intellectual property
+          rights of others; (e) to harass, abuse, insult, harm, defame, slander,
+          disparage, intimidate, or discriminate based on gender, sexual
+          orientation, religion, ethnicity, race, age, national origin, or
+          disability; (f) to submit false or misleading information; (g) to
+          upload or transmit viruses or any other type of malicious code that
+          will or may be used in any way that will affect the functionality or
+          operation of the Service or of any related website, other websites, or
+          the Internet; (h) to collect or track the personal information of
           others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape;
           (j) for any obscene or immoral purpose; or (k) to interfere with or
           circumvent the security features of the Service or any related

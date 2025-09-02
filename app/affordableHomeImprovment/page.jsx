@@ -2,7 +2,7 @@ import React from "react";
 
 function AffordableHomeImprovement() {
   return (
-    <div>
+    <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 my-10">
       <div className="m-8 sm:m-20 space-y-10">
         <h1 className="text-3xl">
           How to Find Affordable Home Improvement Services Without Compromising

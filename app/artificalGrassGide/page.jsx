@@ -45,10 +45,9 @@ function ArtificalGrass() {
           earn us a commission, supporting our content at no extra cost.{" "}
           <Link
             href="/about"
-            className="text-blue-400 hover:underline hover:text-blue-300"
+            className="text-blue-600 hover:underline hover:text-blue-500"
           >
-            Learn more
-            {/* Add the link to the About section */}
+            Learn more about our company{" "}
           </Link>
         </div>
       </div>
@@ -60,7 +59,7 @@ function ArtificalGrass() {
         <h1 className="text-4xl font-extrabold border-t-8 mt-2 border-black w-full sm:w-3/4">
           Best Artificial Grass: Experience the Impact of Quality and Value
         </h1>
-        <h6 className="my-4">Updated May 13, 2025</h6>
+        <p className="my-4">Updated May 13, 2025</p>
       </div>
       <div>
         <video
@@ -73,7 +72,7 @@ function ArtificalGrass() {
         ></video>
       </div>
       {/* aside other section  */}
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_250px] gap-6 mt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_250px] gap-6 mt-10">
         <div>
           <div className="space-y-10 w-full">
             <p>
