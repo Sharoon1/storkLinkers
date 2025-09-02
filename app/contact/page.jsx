@@ -17,7 +17,7 @@ export default function Contact() {
   const handleChange = (e) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
-
+  //
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -25,7 +25,14 @@ export default function Contact() {
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const userID = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
 
-    emailjs.send(serviceID, templateID, formData, userID).then(
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      subject: formData.subject,
+      message: formData.message,
+    };
+
+    emailjs.send(serviceID, templateID, templateParams, userID).then(
       () => {
         toast.success("✅ Message sent successfully!");
         setFormData({ name: "", email: "", subject: "", message: "" });
