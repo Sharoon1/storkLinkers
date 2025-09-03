@@ -18,9 +18,9 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  title: "Create Next App",
+  title: "Stork Linkers | Smart Home Solutions & Practical Living Tips",
   description:
-    "Explore a modern web application built with Next.js, featuring clean design, fast performance, and modular components.",
+    " Transform your home into a comfortable and stylish place with Stork Linkers. Discover budget-friendly tips and expert insights on artificial grass, home improvement, storage solutions, lifestyle upgrades, and more. Stay connected and inspired with Stork Linkers.",
 };
 
 export default function RootLayout({ children }) {

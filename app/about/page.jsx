@@ -8,7 +8,7 @@ function About() {
           About Stork Linkers
         </h1>
         <h2 className="text-2xl">
-          At Stork Linkers, we bring smart solutions home.
+          At Stork Linkers, we bring smart home solutions.
         </h2>
         <p className="text-lg sm:text-xl text-gray-700 mb-6">
           <strong> Our mission is simple:</strong> help you elevate your
@@ -18,10 +18,10 @@ function About() {
           content that’s clear, actionable, and genuinely useful.
         </p>
         <p className="text-lg sm:text-xl text-gray-700 mb-6">
-          We cover a wide range of topics from home improvement hacks and clever
-          storage ideas to lifestyle upgrades and trusted service
-          recommendations. Everything we share is designed to make your life
-          easier, better, and more stylish without the stress or the splurge.
+          We share practical tips on artificial grass, home improvement, storage
+          solutions, lifestyle upgrades, and reliable services. Everything we
+          share is designed to make your life easier, better, and more stylish
+          without the stress or the splurge.
         </p>
         <h3>Why Stork Linkers?</h3>
         <p className="text-lg sm:text-xl text-gray-700 mb-6">

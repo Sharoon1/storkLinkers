@@ -39,18 +39,6 @@ function ArtificalGrass() {
 
   return (
     <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 my-10">
-      <div className="space-y-10">
-        <div className="text-center text-xs border-b-2 border-black p-5 font-Aria">
-          We independently review products. Purchases made through our links may
-          earn us a commission, supporting our content at no extra cost.{" "}
-          <Link
-            href="/about"
-            className="text-blue-600 hover:underline hover:text-blue-500"
-          >
-            Learn more about our company{" "}
-          </Link>
-        </div>
-      </div>
       <div>
         <p className="text-xs items-center">
           LAWN & GARDEN <span className="text-xl ">&#x1F892;</span> ARTIFICIAL
@@ -139,10 +127,10 @@ function ArtificalGrass() {
           {/* altimate guideof artifical grass */}
           {/* start */}
           <div className="space-y-10">
-            <h1 className="text-3xl">
+            <h2 className="text-2xl">
               The Ultimate In-Depth Guide to Artificial Grass:
               <br /> Styles, Uses, Installation & More
-            </h1>
+            </h2>
             <h2 className="text-2xl">
               Introduction: Why Artificial Grass is the Smart Lawn Revolution
             </h2>
