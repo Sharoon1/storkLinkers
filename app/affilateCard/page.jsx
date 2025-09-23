@@ -10,70 +10,46 @@ function AffilateCards() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white p-10">
             <Image
-              className="mx-auto mb-4"
-              src="/61nGzDLKj-L._AC_SX569_.jpg"
-              width={100}
-              height={100}
+              className="mx-auto rounded-2xl mb-4"
+              src="/children_in_grass.jpg"
+              width={300}
+              height={200}
               priority
               alt="road"
             />
-            <h2 className="text-2xl font-bold underline">
-              Ugly Stik GX2 Does-it-all rod
-            </h2>
-            <p className="text-xs font-sans my-4">
-              This rod is known for its strength, durability, and versatility.
-              It’s strong enough to handle salmon and other saltwater fish, but
-              sensitive enough for trout.
-            </p>
+            <h2 className="text-2xl font-bold underline">... </h2>
+            <p className="text-xs font-sans my-4">...</p>
             <h3 className="text-lg font-bold">Buying Options</h3>
-            <h3 className="text-lg font-bold text-red-700 underline ">
-              $40 from Amazon
-            </h3>
+            <h3 className="text-lg font-bold text-red-700 underline ">... </h3>
           </div>
           <div className="bg-white p-10">
             <Image
-              className="mx-auto mb-4"
-              src="/61nGzDLKj-L._AC_SX569_.jpg"
-              width={100}
-              height={100}
+              className="mx-auto rounded-2xl mb-4"
+              src="/home_garden.jpg"
+              width={300}
+              height={200}
               priority
               alt="road"
             />
-            <h2 className="text-2xl font-bold underline">
-              Ugly Stik GX2 Does-it-all rod
-            </h2>
-            <p className="text-xs my-4 font-sans">
-              This rod is known for its strength, durability, and versatility.
-              It’s strong enough to handle salmon and other saltwater fish, but
-              sensitive enough for trout.
-            </p>
+            <h2 className="text-2xl font-bold underline">... </h2>
+            <p className="text-xs my-4 font-sans">...</p>
             <h3 className="text-lg font-bold">Buying Options</h3>
-            <h3 className="text-lg font-bold text-red-700 underline ">
-              $40 from Amazon
-            </h3>
+            <h3 className="text-lg font-bold text-red-700 underline ">... </h3>
           </div>
 
           <div className="bg-white p-10">
             <Image
-              className="mx-auto mb-4"
-              src="/61nGzDLKj-L._AC_SX569_.jpg"
-              width={100}
-              height={100}
+              className="mx-auto mb-4 rounded-2xl"
+              src="/dog_grass.jpg"
+              width={300}
+              height={200}
               priority
               alt="road"
             />
-            <h2 className="text-2xl font-bold underline">
-              Ugly Stik GX2 Does-it-all rod
-            </h2>
-            <p className="text-xs my-4 font-sans">
-              This rod is known for its strength, durability, and versatility.
-              It’s strong enough to handle salmon and other saltwater fish, but
-              sensitive enough for trout.
-            </p>
+            <h2 className="text-2xl font-bold underline">... </h2>
+            <p className="text-xs my-4 font-sans">....</p>
             <h3 className="text-lg font-bold">Buying Options</h3>
-            <h3 className="text-lg font-bold text-red-700 underline ">
-              $40 from Amazon
-            </h3>
+            <h3 className="text-lg font-bold text-red-700 underline ">... </h3>
           </div>
         </div>
       </div>
@@ -87,19 +63,15 @@ function AffilateCards() {
             <div className="w-full flex justify-center">
               <Image
                 alt="rod"
-                src="/61SkBecPidL._AC_SX569_.jpg"
-                width={200}
-                height={200}
+                src="/grass_in_room.jpg"
+                width={400}
+                height={400}
               />
             </div>
             <div className="space-y-2">
-              <h3 className="text-lg font-bold underline">Ugly Stik GX2</h3>
+              <h3 className="text-lg font-bold underline">...</h3>
               <h3 className="text-lg">Does-it-all rod</h3>
-              <p className="text-sm">
-                This rod is known for its strength, durability, and versatility.
-                It’s strong enough to handle salmon and other saltwater fish,
-                but sensitive enough for trout.
-              </p>
+              <p className="text-sm">....</p>
               <button className="p-2 rounded-lg text-white bg-black px-8">
                 From Amazon
               </button>
@@ -108,21 +80,12 @@ function AffilateCards() {
           <div>
             <div className="border-t-2 p-10 grid grid-cols-2">
               <div className="w-full flex justify-center">
-                <Image
-                  alt="rod"
-                  src="/61SkBecPidL._AC_SX569_.jpg"
-                  width={200}
-                  height={200}
-                />
+                <Image alt="rod" src="/garden.jpg" width={400} height={400} />
               </div>
               <div className="space-y-2">
-                <h3 className="text-lg font-bold underline">Ugly Stik GX2</h3>
-                <h3 className="text-lg">Does-it-all rod</h3>
-                <p className="text-sm">
-                  This rod is known for its strength, durability, and
-                  versatility. It’s strong enough to handle salmon and other
-                  saltwater fish, but sensitive enough for trout.
-                </p>
+                <h3 className="text-lg font-bold underline">...</h3>
+                <h3 className="text-lg">...</h3>
+                <p className="text-sm">...</p>
                 <button className="p-2 rounded-lg text-white bg-black px-8">
                   From Amazon
                 </button>

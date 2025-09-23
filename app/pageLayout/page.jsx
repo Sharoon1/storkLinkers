@@ -1,9 +1,9 @@
 import React from "react";
-import ArtificalGrass from "../artificalGrassGide/page";
+import ArtificialGrass from "../artificialGrassGide/page";
 function PageLayout() {
   return (
     <div>
-      <ArtificalGrass />
+      <ArtificialGrass />
     </div>
   );
 }

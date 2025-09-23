@@ -22,6 +22,9 @@ function Footer() {
                 <li className="font-bold hover:text-[#135254]">
                   <Link href="/about">About</Link>
                 </li>
+                <li className="font-bold hover:text-[#135254]">
+                  <Link href="/public">About</Link>
+                </li>
               </ul>
             </nav>
           </div>

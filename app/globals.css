@@ -163,3 +163,7 @@ h6 {
     @apply bg-background text-foreground;
   }
 }
+
+html {
+  scroll-padding-top: 7rem; /* ~96px, adjust if needed */
+}

@@ -33,28 +33,28 @@ function Header() {
   const menuItems = [
     {
       title: "Artificial Grass",
-      link: "/artificalGrassGide",
+      link: "/artificialGrassGide",
       subCategories: [
         {
           name: "Grass for Pets",
-          link: "/artificalGrassGide/bestArtificialGrassforDogs",
+          link: "/artificialGrassGide/bestArtificialGrassforDogs",
         },
         {
           name: "Balcony & Patio Turf",
-          link: "/artificalGrassGide/artificialGrassforBalconiesPatios",
+          link: "/artificialGrassGide/artificialGrassforBalconiesPatios",
         },
         {
           name: "Installation Tools",
-          link: "/artificalGrassGide/artificialTurfTools",
+          link: "/artificialGrassGide/artificialTurfTools",
         },
 
         {
           name: "Budget Turf Options",
-          link: "/artificalGrassGide/budgetArtificialGrass",
+          link: "/artificialGrassGide/budgetArtificialGrass",
         },
         {
           name: "Premium Turf Brands",
-          link: "/artificalGrassGide/artificialGrassLandscapingUSA",
+          link: "/artificialGrassGide/artificialGrassLandscapingUSA",
         },
       ],
     },
@@ -122,7 +122,7 @@ function Header() {
           link: "/affordableStorage/verticalStorageRacksApartments",
         },
         {
-          name: "Cheap Closet Organizer System (Amazon Picks)",
+          name: "Closet Organizer System (Amazon Picks)",
           link: "/affordableStorage/ClosetOrganizers",
         },
         {
@@ -141,9 +141,9 @@ function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="/brandName.png"
-                width={120}
-                height={120}
+                src="/BrandName.png"
+                width={300}
+                height={300}
                 alt="Logo"
                 className="h-10 w-auto object-contain"
               />
@@ -183,16 +183,30 @@ function Header() {
                 >
                   <Link
                     href={item.link}
-                    className="hover:text-[#135254] flex items-center gap-1 py-5"
+                    className="hover:text-green-700  active:text-green-700 transition-colors duration-[3000ms][] flex hover:underline items-center gap-1 py-5"
                   >
                     {item.title}
-                    <ChevronDown size={14} />
+                    {/* here is the links stickers of heading of header */}
+
+                    <svg
+                      className="w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
                   </Link>
 
                   {/* Mega Dropdown */}
                   {activeMenu === idx && (
                     <div
-                      className="fixed left-0 top-20 hidden group-hover:flex transition-opacity duration-3000 opacity-0 group-hover:opacity-100
+                      className="fixed left-0 top-19 hidden group-hover:flex transition-opacity duration-3000 opacity-0 group-hover:opacity-100
   w-screen bg-white shadow-lg border-t border-gray-200 z-50"
                     >
                       <div
@@ -210,7 +224,7 @@ function Header() {
                               setOpenMenu(false);
                               setActiveMenu(null);
                             }}
-                            className="text-gray-700 hover:text-green-800"
+                            className="text-gray-700 hover:text-green-800 active:text-green-500"
                           >
                             {sub.name}
                           </Link>

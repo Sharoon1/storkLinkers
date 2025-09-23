@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Allow essential static assets
+Allow: /_next/
+Allow: /images/
+Allow: /public/
+
+# Block unnecessary Next.js internals (not useful for SEO)
+Disallow: /api/
+Disallow: /_next/static/
+Disallow: /_next/image
+
+# Sitemap
+Sitemap: https://storklinkers.vercel.app/sitemap.xml
