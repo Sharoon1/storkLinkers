@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ChevronDown } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 function Header() {
@@ -141,7 +140,7 @@ function Header() {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="/BrandName.png"
+                src="/BrandName.svg"
                 width={300}
                 height={300}
                 alt="Logo"

@@ -215,9 +215,9 @@ function BudgetArtificialGrass() {
 
               {/* Product 1 */}
               <div className="p-4 border border-gray-200 rounded-lg shadow-md mb-6">
-                <h4 className="text-lg text-green-700 font-semibold mb-2">
+                <h3 className="text-lg text-green-700 font-semibold mb-2">
                   PET GROW Realistic Artificial Grass Rug
-                </h4>
+                </h3>
                 <ul className="list-disc list-inside text-lg text-gray-800 space-y-1 mb-2">
                   <li>✅ Budget-friendly, soft texture, looks natural.</li>
                   <li>✅ Good for lawns, backyards, and dog areas.</li>
@@ -238,9 +238,9 @@ function BudgetArtificialGrass() {
 
               {/* Product 2 */}
               <div className="p-4 border border-gray-200 rounded-lg shadow-md mb-6">
-                <h4 className="text-lg font-semibold text-green-700 mb-2">
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
                   Goasis Lawn Premium Turf
-                </h4>
+                </h3>
                 <ul className="list-disc list-inside text-lg text-gray-800 space-y-1 mb-2">
                   <li>✅ High-density turf with 4-tone color.</li>
                   <li>✅ UV-resistant, long-lasting.</li>
@@ -261,9 +261,9 @@ function BudgetArtificialGrass() {
 
               {/* Product 3 */}
               <div className="p-4 border border-gray-200 rounded-lg shadow-md mb-6">
-                <h4 className="text-lg font-semibold text-green-700 mb-2">
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
                   SunVilla Realistic Artificial Grass
-                </h4>
+                </h3>
                 <ul className="list-disc list-inside text-lg text-gray-800 space-y-1 mb-2">
                   <li>✅ One of the most popular USA brands.</li>
                   <li>✅ Soft, realistic, and pet-safe.</li>
@@ -289,9 +289,9 @@ function BudgetArtificialGrass() {
 
               {/* Product 4 */}
               <div className="p-4 border border-gray-200 rounded-lg shadow-md mb-6">
-                <h4 className="text-lg font-semibold text-green-700 mb-2">
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
                   LITA Realistic Artificial Grass
-                </h4>
+                </h3>
                 <ul className="list-disc list-inside text-lg text-gray-800 space-y-1 mb-2">
                   <li>✅ Super soft, non-toxic, safe for kids.</li>
                   <li>✅ Excellent drainage for pet use.</li>
@@ -309,9 +309,9 @@ function BudgetArtificialGrass() {
 
               {/* Product 5 */}
               <div className="p-4 border border-gray-200 rounded-lg shadow-md mb-6">
-                <h4 className="text-lg font-semibold text-green-700 mb-2">
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
                   ZGR Pet-Friendly Turf
-                </h4>
+                </h3>
                 <ul className="list-disc list-inside text-lg text-gray-800 space-y-1 mb-2">
                   <li>✅ Designed for dogs (easy cleanup).</li>
                   <li>✅ Shorter pile height for quick drying.</li>
@@ -336,9 +336,9 @@ function BudgetArtificialGrass() {
 
               {/* Product 6 */}
               <div className="p-4 border border-gray-200 rounded-lg shadow-md mb-6">
-                <h4 className="text-lg font-semibold text-green-700 mb-2">
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
                   Golden Moon Artificial Grass Tiles
-                </h4>
+                </h3>
                 <ul className="list-disc list-inside text-lg text-gray-800 space-y-1 mb-2">
                   <li>✅ Easy snap-together installation.</li>
                   <li>✅ Great for balconies, decks, and apartments.</li>
@@ -356,9 +356,9 @@ function BudgetArtificialGrass() {
 
               {/* Product 7 */}
               <div className="p-4 border border-gray-200 rounded-lg shadow-md">
-                <h4 className="text-lg font-semibold text-green-700 mb-2">
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
                   iCustomRug Indoor/Outdoor Turf
-                </h4>
+                </h3>
                 <ul className="list-disc list-inside text-lg text-gray-800 space-y-1 mb-2">
                   <li>✅ Affordable option for patios and events.</li>
                   <li>✅ Lightweight, easy to move.</li>
