@@ -20,12 +20,20 @@ const openSans = Open_Sans({
 export const metadata = {
   title: "Stork Linkers | Smart Home Solutions & Practical Living Tips",
   description:
-    " Transform your home into a comfortable and stylish place with Stork Linkers. Discover budget-friendly tips and expert insights on artificial grass, home improvement, storage solutions, lifestyle upgrades, and more. Stay connected and inspired with Stork Linkers.",
+    "Discover smart home solutions, artificial grass ideas, and storage tips with Stork Linkers. Affordable, stylish, and practical upgrades for modern living.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${openSans.variable}`}>
+      <head>
+        {/* Hreflang for USA */}
+        <link
+          rel="alternate"
+          href="https://storklinkers.com/"
+          hreflang="en-us"
+        />
+      </head>
       <body>
         <Header />
         {children}

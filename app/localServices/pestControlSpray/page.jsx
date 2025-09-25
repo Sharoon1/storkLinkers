@@ -40,11 +40,11 @@ function PestControlSpray() {
     <>
       <Head>
         <title>
-          Safety Gear for DIY Repairs at Home — Essential Amazon Buyer’s Guide
+          Best Pest Control Sprays on Amazon 2025 | DIY Home Protection
         </title>
         <meta
           name="description"
-          content="Stay safe on DIY projects with gloves, goggles, hard hats, hearing protection, knee pads & first-aid kits. See top Amazon picks with OSHA/ANSI standards."
+          content="Discover the top-rated pest control sprays on Amazon 2025. Safe, effective, and budget-friendly solutions for ants, roaches, spiders & more."
         />
         <link
           rel="canonical"
@@ -57,9 +57,9 @@ function PestControlSpray() {
           <div className="py-6">
             <div className="">
               {/* <!-- Main Heading --> */}
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">
+              <h1 className="text-3xl font-bold text-gray-800 mb-6">
                 Best Pest Control Sprays on Amazon (2025 Picks You Can Trust)
-              </h2>
+              </h1>
 
               {/* <!-- Intro Paragraph --> */}
               <p className="text-lg text-gray-700 mb-4">
@@ -79,9 +79,9 @@ function PestControlSpray() {
               </p>
 
               {/* <!-- Sub-heading --> */}
-              <h3 className="text-xl font-semibold text-indigo-600 mb-4">
+              <h2 className="text-xl font-semibold text-indigo-600 mb-4">
                 In this guide, we’ll cover:
-              </h3>
+              </h2>
 
               {/* <!-- Bullet List --> */}
               <ul className="list-disc list-inside space-y-2 text-gray-700 mb-6">

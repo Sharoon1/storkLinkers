@@ -1,8 +1,21 @@
+import Head from "next/head";
 import React from "react";
 
 function AffilateDisclosure() {
   return (
-    <div>
+    <>
+      <Head>
+        <title>Affiliate Disclosure | Stork Linkers</title>
+        <meta
+          name="description"
+          content="Stork Linkers participates in affiliate programs. Learn how this disclosure explains our partnerships, commissions, and transparency."
+        />
+        <link
+          rel="canonical"
+          href="https://storklinkers.com/affiliateDisclosure"
+        />
+        <meta name="robots" content="noindex, follow" />
+      </Head>
       <div className="bg-gray-50 text-gray-800 font-sans">
         <div className="max-w-3xl mx-auto px-6 py-16">
           <h1 className="text-3xl font-bold text-gray-900 mb-6">
@@ -37,7 +50,7 @@ function AffilateDisclosure() {
           <p className="mt-8">Thank you for your support!</p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

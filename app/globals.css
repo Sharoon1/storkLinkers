@@ -55,34 +55,6 @@ h5,
 h6 {
   font-family: var(--font-heading), sans-serif;
 }
-/* @layer base {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    @apply font-extrabold;
-  }
-  p {
-    @apply text-sm text-allTextC;
-  }
-  h1 {
-    @apply text-5xl;
-  }
-  h2 {
-    @apply text-4xl;
-  }
-  h3 {
-    @apply text-3xl;
-  }
-  h4 {
-    @apply text-2xl;
-  }
-  h5 {
-    @apply text-lg;
-  }
-} */
-
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
