@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
         <link
           rel="alternate"
           href="https://storklinkers.com/"
-          hreflang="en-us"
+          hrefLang="en-us"
         />
       </head>
       <body>

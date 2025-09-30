@@ -1,6 +1,14 @@
 import React from "react";
-import { Instagram, Facebook, Twitter, TwitchIcon, Twitch } from "lucide-react";
+import {
+  Instagram,
+  Facebook,
+  Twitter,
+  TwitchIcon,
+  Twitch,
+  Linkedin,
+} from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 function Footer() {
   const curentYear = new Date().getFullYear();
   return (
@@ -21,9 +29,6 @@ function Footer() {
                 </li>
                 <li className="font-bold hover:text-[#135254]">
                   <Link href="/about">About</Link>
-                </li>
-                <li className="font-bold hover:text-[#135254]">
-                  <Link href="/public">About</Link>
                 </li>
               </ul>
             </nav>
@@ -47,14 +52,25 @@ function Footer() {
             </nav>
           </div>
           <div className="sm:flex  gap-x-2 sm:gap-x-3">
-            <a href="" target="_blank">
+            <a
+              href="          https://www.linkedin.com/company/storklinkers/?viewAsMember=true"
+              target="_blank"
+            >
+              <Linkedin size={30} />
+            </a>
+            <a href="https://www.pinterest.com/storklinkers" target="_blank">
+              <Image
+                src="pinterest.svg"
+                width={30}
+                height={30}
+                alt="pinterest icon"
+              />
+            </a>
+            <a href="https://www.instagram.com/storklinkers/" target="_blank">
               <Instagram size={30} />
             </a>
-            <a href="https://www.facebook.com/storklinkers/" target="_blank">
+            <a href="https://www.facebook.com/storklinkersUSA" target="_blank">
               <Facebook size={30} />
-            </a>
-            <a href="https://x.com/StorkLinkers" target="_blank">
-              <Twitter size={30} />
             </a>
           </div>
         </div>

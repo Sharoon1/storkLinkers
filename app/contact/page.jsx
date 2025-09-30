@@ -3,6 +3,7 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import { useRef } from "react";
+import Head from "next/head";
 
 export default function Contact() {
   const formRef = useRef(null);
@@ -70,10 +71,10 @@ export default function Contact() {
           <p>
             <strong>Email:</strong>{" "}
             <a
-              href="mailto:sharoon.202105203@gcuf.edu.pk"
+              href="mailto:info@storklinkers.com"
               className="text-blue-600 hover:underline"
             >
-              sharoon.202105203@gcuf.edu.pk
+              info@storklinkers.com
             </a>
           </p>
           <p>
@@ -82,16 +83,16 @@ export default function Contact() {
               href="tel:+923066079142"
               className="text-blue-600 hover:underline"
             >
-              0306 6079142
+              +92306-6079142
             </a>
           </p>
           <p>
             <strong>Support Email:</strong>{" "}
             <a
-              href="mailto:sharoon.202105203@gcuf.edu.pk"
+              href="mailto:support@storklinkers.com"
               className="text-blue-600 hover:underline"
             >
-              sharoon.202105203@gcuf.edu.pk
+              support@storklinkers.com{" "}
             </a>
           </p>
         </div>

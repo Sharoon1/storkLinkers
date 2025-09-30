@@ -6,7 +6,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@radix-ui/react-accordion";
-import AffilateCards from "../affilateCard/page";
 function ArtificialGrass() {
   // frequent ask question section it is in last
   const faqs = [
@@ -142,9 +141,139 @@ function ArtificialGrass() {
             </div>
             {/* consider this after */}
             {/* Add the Affilate cards from the Amazone */}
-            <div>
-              <AffilateCards />
+            <div className="w-full max-w-7xl mx-auto p-4 space-y-6">
+              {/* ================= TOP PICKS (Full Width Cards) ================= */}
+              <fieldset className="border-4 border-green-600 p-5 rounded-2xl bg-white ">
+                <legend className="bg-green-800 p-3 -ml-4 shadow-md shadow-green-300 text-white rounded-xl">
+                  <h2>🏆 Our Top Picks</h2>
+                </legend>
+
+                {/* Top Pick 1 */}
+                <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-2xl overflow-hidden mb-6">
+                  <img
+                    src="/dogIngrass.webp"
+                    alt="Pet/Sport Turf"
+                    className="w-full md:w-1/3 h-48 md:h-56 object-cover"
+                  />
+                  <div className="p-6 flex flex-col justify-center">
+                    <h3 className="text-xl font-bold text-green-600">
+                      Pet/Sport Turf
+                    </h3>
+                    <h4 className="text-sm font-semibold text-gray-500">
+                      For Dogs & High-Traffic Areas
+                    </h4>
+                    <p className="mt-2 text-gray-700">
+                      Pet-safe, durable, and odor-free artificial turf with
+                      excellent drainage, perfect for pets and active outdoor
+                      spaces.
+                    </p>
+                    <span className="mt-3 text-lg font-semibold text-green-600">
+                      $189.99
+                    </span>
+                  </div>
+                </div>
+
+                {/* Top Pick 2 */}
+                <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-2xl overflow-hidden">
+                  <img
+                    src="/childrenGrass.webp"
+                    alt="RealGrass Lawns Deluxe"
+                    className="w-full md:w-1/3 h-48 md:h-56 object-cover"
+                  />
+                  <div className="p-6 flex flex-col justify-center">
+                    <h3 className="text-xl font-bold text-green-600">
+                      RealGrass Lawns Deluxe
+                    </h3>
+                    <h4 className="text-sm font-semibold text-gray-500">
+                      Premium Natural Look
+                    </h4>
+                    <p className="mt-2 text-gray-700">
+                      Thick, realistic turf with the closest feel to a real lawn
+                      — long-lasting beauty with minimal upkeep.
+                    </p>
+                    <span className="mt-3 text-lg font-semibold text-green-600">
+                      $329.99
+                    </span>
+                  </div>
+                </div>
+              </fieldset>
+
+              {/* ================= EVERYTHING WE RECOMMEND ================= */}
+              <div>
+                <h2 className="text-2xl font-bold text-green-600 mb-4">
+                  ✅ Everything We Recommend
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {/* Card 1 */}
+                  <div className="bg-white shadow-md rounded-2xl p-4 flex flex-col">
+                    <img
+                      src="/grassRug.webp"
+                      alt="TrafficMaster Fescue"
+                      className="w-full h-40 object-cover rounded-lg"
+                    />
+                    <h3 className="mt-3 text-lg font-bold text-green-600">
+                      TrafficMaster Fescue
+                    </h3>
+                    <h4 className="text-sm font-semibold text-gray-500">
+                      Budget-Friendly Lawn Option
+                    </h4>
+                    <p className="mt-2 text-gray-700 ">
+                      Affordable, realistic turf perfect for patios, gardens,
+                      and lawns.
+                    </p>
+                    <span className="mt-2 text-lg font-semibold text-green-600">
+                      $89.99
+                    </span>
+                  </div>
+
+                  {/* Card 2 */}
+                  <div className="bg-white shadow-md rounded-2xl p-4 flex flex-col">
+                    <img
+                      src="/balcani.webp"
+                      alt="Artificial Grass Rug"
+                      className="w-full h-40 object-cover rounded-lg"
+                    />
+                    <h3 className="mt-3 text-lg font-bold text-green-600">
+                      Artificial Grass Rug
+                    </h3>
+                    <h4 className="text-sm font-semibold text-gray-500">
+                      Best for Balconies & Events
+                    </h4>
+                    <p className="mt-2 text-gray-700">
+                      Portable and versatile rug-style grass, ideal for
+                      temporary setups.
+                    </p>
+                    <span className="mt-2 text-lg font-semibold text-green-600">
+                      $59.99
+                    </span>
+                  </div>
+
+                  {/* Card 3 */}
+                  <div className="bg-white shadow-md rounded-2xl p-4 flex flex-col ">
+                    <img
+                      src="/yards.webp"
+                      alt="GREENLINE Putting Green"
+                      className="w-full h-40 object-cover rounded-lg"
+                    />
+                    <h3 className="mt-3 text-lg font-bold text-green-600">
+                      GREENLINE Putting Green
+                    </h3>
+                    <h4 className="text-sm font-semibold text-gray-500">
+                      Golf & Sports Practice
+                    </h4>
+                    <p className="mt-2 text-gray-700 ">
+                      Smooth putting surface made for golfers and backyard
+                      practice.
+                    </p>
+                    <span className="mt-2 text-lg font-semibold text-green-600">
+                      $149.99
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            {/* cards end */}
             {/* altimate guideof artificial grass */}
             {/* start */}
             <div className="space-y-10">
