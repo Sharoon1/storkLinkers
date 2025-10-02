@@ -44,7 +44,7 @@ function TopUnderBedStorageIdeas() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affordableStorage/topUnderBedStorageIdeas"
+          href="https://www.storklinkers.com/affordableStorage/topUnderBedStorageIdeas"
         />
       </Head>
 

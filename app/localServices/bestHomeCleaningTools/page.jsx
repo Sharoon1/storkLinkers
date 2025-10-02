@@ -42,7 +42,7 @@ function BestHomeCleaningTools() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/localServices/bestHomeCleaningTools"
+          href="https://www.storklinkers.com/localServices/bestHomeCleaningTools"
         />
       </Head>
 

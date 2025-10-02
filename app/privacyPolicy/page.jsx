@@ -10,8 +10,10 @@ function PrivacyPolicy() {
           name="description"
           content="Read the Privacy Policy of Stork Linkers. Learn how we collect, use, and protect your personal data while providing our services."
         />
-        <link rel="canonical" href="https://storklinkers.com/privacyPolicy" />
-        <meta name="robots" content="noindex, follow" />
+        <link
+          rel="canonical"
+          href="https://www.storklinkers.com/privacyPolicy"
+        />
       </Head>
       <div className="py-10 px-4">
         <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-xl p-8 sm:p-10 text-center sm:text-left space-y-8">
@@ -125,11 +127,11 @@ function PrivacyPolicy() {
                 <strong>Website</strong> refers to Stork Linkers, accessible
                 from{" "}
                 <a
-                  href="https://storklinkers.com/"
+                  href="https://www.storklinkers.com/"
                   rel="external nofollow noopener"
                   target="_blank"
                 >
-                  https://storklinkers.com/
+                  https://www.storklinkers.com/
                 </a>
               </p>
             </li>

@@ -43,7 +43,7 @@ function AffordableHomeLighting() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affordableHomeImprovment/affordableHomeLighting"
+          href="https://www.storklinkers.com/affordableHomeImprovment/affordableHomeLighting"
         />
       </Head>
 

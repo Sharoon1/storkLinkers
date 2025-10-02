@@ -44,7 +44,7 @@ function HomeSafetyGear() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/localServices/homeSafetyGear"
+          href="https://www.storklinkers.com/localServices/homeSafetyGear"
         />
       </Head>
 

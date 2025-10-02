@@ -47,7 +47,7 @@ function ElectricalRepairKit() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/localServices/electricalRepairKit"
+          href="https://www.storklinkers.com/localServices/electricalRepairKit"
         />
       </Head>
 

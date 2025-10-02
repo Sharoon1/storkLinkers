@@ -50,7 +50,7 @@ function ClosetOrganizers() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affordableStorage/ClosetOrganizers"
+          href="https://www.storklinkers.com//affordableStorage/ClosetOrganizers"
         />
       </Head>
 

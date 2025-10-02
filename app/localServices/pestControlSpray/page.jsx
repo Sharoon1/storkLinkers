@@ -48,7 +48,7 @@ function PestControlSpray() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/localServices/pestControlSpray"
+          href="https://www.storklinkers.com/localServices/pestControlSpray"
         />
       </Head>
 

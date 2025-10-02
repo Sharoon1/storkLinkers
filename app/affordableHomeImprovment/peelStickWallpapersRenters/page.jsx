@@ -42,7 +42,7 @@ function PeelAndStickWallpapers() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affordableHomeImprovment/peelStickWallpapersRenters"
+          href="https://www.storklinkers.com/affordableHomeImprovment/peelStickWallpapersRenters"
         />
       </Head>
 

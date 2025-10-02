@@ -15,7 +15,7 @@ function AffordableStorage() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affordableStorage"
+          href="https://www.storklinkers.com/affordableStorage"
         />
       </Head>
 

@@ -10,8 +10,10 @@ function TermsService() {
           name="description"
           content="Read the Terms of Service for using Stork Linkers. These terms outline your rights, responsibilities, and our policies regarding website usage."
         />
-        <link rel="canonical" href="https://storklinkers.com/termsService" />
-        <meta name="robots" content="noindex, follow" />
+        <link
+          rel="canonical"
+          href="https://www.storklinkers.com/termsService"
+        />
       </Head>
 
       <div className="py-10 px-4">

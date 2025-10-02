@@ -48,7 +48,7 @@ function VerticalStorageRacksApartments() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affordableStorage/verticalStorageRacksApartments"
+          href="https://www.storklinkers.com/affordableStorage/verticalStorageRacksApartments"
         />
       </Head>
 

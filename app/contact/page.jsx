@@ -56,7 +56,7 @@ export default function Contact() {
           name="description"
           content="Get in touch with Stork Linkers. Contact Sharoon Sarfraz via email, phone, or social media. Reach out for support, inquiries, or a free quote."
         />
-        <link rel="canonical" href="https://storklinkers.com/contact" />
+        <link rel="canonical" href="https://www.storklinkers.com/contact" />
       </Head>
       <div className="max-w-4xl mx-auto p-6">
         {/* Header */}

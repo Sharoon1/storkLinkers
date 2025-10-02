@@ -15,7 +15,7 @@ function AffordableHomeImprovement() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affordableHomeImprovment"
+          href="https://www.storklinkers.com/affordableHomeImprovment"
         />
       </Head>
 

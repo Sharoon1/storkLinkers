@@ -13,7 +13,10 @@ function Localservices() {
           name="description"
           content="Discover how to find trusted specialized services near you, from dustless blasting to monument engraving and headstone makers. Compare options with ease."
         />
-        <link rel="canonical" href="https://storklinkers.com/localServices" />
+        <link
+          rel="canonical"
+          href="https://www.storklinkers.com/localServices"
+        />
       </Head>
 
       <div>

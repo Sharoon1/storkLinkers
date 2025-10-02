@@ -42,14 +42,14 @@ function DIYPlumbingTools() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/localServices/diyPlumbingTools"
+          href="https://www.storklinkers.com/localServices/diyPlumbingTools"
         />
       </Head>
 
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 my-10">
         <div className="space-y-10">
           <div className="space-y-6">
-            <h1 className="text-4xl font-bold text-indigo-600">
+            <h1 className="text-4xl font-bold">
               Best Tools for DIY Plumbing Fixes at Home (Amazon Picks)
             </h1>
 

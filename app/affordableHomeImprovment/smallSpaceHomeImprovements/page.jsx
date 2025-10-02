@@ -38,7 +38,7 @@ function SmallSpaceHomeImprovements() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affordableHomeImprovment/smallSpaceHomeImprovements"
+          href="https://www.storklinkers.com/affordableHomeImprovment/smallSpaceHomeImprovements"
         />
       </Head>
 

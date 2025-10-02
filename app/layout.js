@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         {/* Hreflang for USA */}
         <link
           rel="alternate"
-          href="https://storklinkers.com/"
+          href="https://www.storklinkers.com/"
           hrefLang="en-us"
         />
       </head>

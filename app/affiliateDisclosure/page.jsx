@@ -12,9 +12,8 @@ function AffilateDisclosure() {
         />
         <link
           rel="canonical"
-          href="https://storklinkers.com/affiliateDisclosure"
+          href="https://www.storklinkers.com/affiliateDisclosure"
         />
-        <meta name="robots" content="noindex, follow" />
       </Head>
       <div className="bg-gray-50 text-gray-800 font-sans">
         <div className="max-w-3xl mx-auto px-6 py-16">

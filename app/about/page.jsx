@@ -10,8 +10,7 @@ function About() {
           name="description"
           content="Learn about Stork Linkers, your guide to smart home solutions, artificial grass, storage hacks, and lifestyle upgrades for modern, budget-friendly living."
         />
-        <link rel="canonical" href="https://storklinkers.com/about" />
-        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.storklinkers.com/about" />
       </Head>
       <div className="py-10 px-4">
         <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-xl p-8 sm:p-10 text-center sm:text-left">
