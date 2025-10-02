@@ -17,7 +17,7 @@ function Footer() {
         <div className="flex justify-center items-center bg-emerald-50 gap-3 sm:gap-20 px-5 sm:px-20 py-5 ">
           <div>
             <strong>
-              @ {curentYear} Stork Linkers, <br />
+              @ {curentYear} Storklinkers, <br />
               All right reserved
             </strong>
           </div>
