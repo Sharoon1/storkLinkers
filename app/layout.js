@@ -4,6 +4,7 @@ import "./globals.css";
 import { Poppins, Open_Sans } from "next/font/google";
 import Footer from "./(components)/footer";
 import Header from "./(components)/header";
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -27,6 +28,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable} ${openSans.variable}`}>
       <head>
+        {/* googel analytics */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-DSRTXMHBX6"
+        />
+        <Script id="google-analytics">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DSRTXMHBX6');
+  `}
+        </Script>
+
         {/* Hreflang for USA */}
         <link
           rel="alternate"
