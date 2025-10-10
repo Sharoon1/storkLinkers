@@ -5,6 +5,7 @@ import {
   AccordionTrigger,
 } from "@radix-ui/react-accordion";
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 const faqs = [
   {
@@ -225,214 +226,331 @@ function Dog() {
               Here are three excellent products you can link to as an Amazon
               Affiliate (adjust links accordingly):
             </p>
-            {/* Product 1: PetGrow Pet Pad */}
-            <div className="mb-6 p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
-              <h3 className="text-xl font-semibold text-green-700">
-                🟢 PetGrow Pet Pad (Budget/Starter)
-              </h3>
-              <p className="mt-2 text-gray-800">
-                📦 Example Amazon Link: “PetGrow 6.5 × 10 ft Artificial Grass”
-              </p>
-              <ul className="mt-2 text-gray-700 list-disc list-inside space-y-1">
-                <li>
-                  Realistic grass look with polyethylene/polypropylene blend
-                </li>
-                <li>
-                  Waterproof backing perfect for indoor use or small patios
-                </li>
-                <li>
-                  Easy to trim; can combine multiple pads for larger areas
-                </li>
-                <li>
-                  Affordable + great starting option for first-time buyers
-                </li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-green-700 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-green-800 active:bg-green-900 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 Check Price on Amazon
-              </a>
-              <p className="mt-2 text-gray-800 font-medium">Recommended use:</p>
-              <p className="text-gray-700">
-                Starter pad for balconies, RVs, potty training patch
-              </p>
+            {/* product 1 */}
+            <div className="mb-6 p-4 flex flex-col-reverse border md:flex-row border-gray-200 rounded-lg shadow-sm bg-white">
+              <div>
+                <h3 className="text-xl font-semibold text-green-700">
+                  🟢 CooZero Dog Grass Mat (Professional/Indoor-Outdoor)
+                </h3>
+                <p className="mt-2 text-gray-800">
+                  📦 Example Amazon Link: “CooZero Artificial Grass Mat 47.3 ×
+                  31.5 inch”
+                </p>
+                <ul className="mt-2 text-gray-700 list-disc list-inside space-y-1">
+                  <li>
+                    High-quality plastic turf with soft, realistic grass texture
+                    — perfect for pets
+                  </li>
+                  <li>
+                    Waterproof rubber backing with drainage holes for easy
+                    cleaning
+                  </li>
+                  <li>Weather-resistant and safe for both pets and kids</li>
+                  <li>
+                    Eco-friendly alternative — no mowing, watering, or
+                    fertilizing needed
+                  </li>
+                  <li>
+                    Ideal for potty training, patios, balconies, and indoor pet
+                    zones
+                  </li>
+                </ul>
+                <a
+                  href="https://amzn.to/47bAAYY"
+                  className="inline-block bg-green-700 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-green-800 active:bg-green-900 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  👉 Check Price on Amazon
+                </a>
+                <p className="mt-2 text-gray-800 font-medium">
+                  Recommended use:
+                </p>
+                <p className="text-gray-700">
+                  Perfect for cats or small & medium dogs — great for potty
+                  training, patios, and indoor lawns
+                </p>
+              </div>
+              <div>
+                <Image
+                  alt="dog sit in aritifical grass"
+                  src="/dogGrass/dogInAGrass.webp"
+                  width={600}
+                  height={400}
+                />
+              </div>
             </div>
 
             {/* Product 2: CooZero Dog Pad */}
-            <div className="mb-6 p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
-              <h3 className="text-xl font-semibold text-green-700">
-                🟢 CooZero Artificial Grass Dog Pad (Training)
-              </h3>
-              <p className="mt-2 text-gray-800">
-                📦 Example Amazon Link: “CooZero 100 × 80 cm Dog Potty Grass
-                Pad”
-              </p>
-              <ul className="mt-2 text-gray-700 list-disc list-inside space-y-1">
-                <li>Amazon’s Choice with strong reviews (~4.2★+)</li>
-                <li>Built-in drainage holes keep the surface dry and clean</li>
-                <li>Compact, easy to shake off and clean</li>
-                <li>Can be used indoors or outside balconies & entryways</li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-green-700 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-green-800 active:bg-green-900 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 Check Price on Amazon
-              </a>
-              <p className="mt-2 text-gray-800 font-medium">Recommended use:</p>
-              <p className="text-gray-700">Small indoor/outdoor potty pad</p>
-            </div>
+            <div className="border flex flex-col-reverse md:flex-row border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              <div>
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
+                  🟢 Petgrow Artificial Grass Rug – Realistic & Pet-Safe Turf
+                </h3>
+                <p className="text-gray-700 mb-3">
+                  Soft, thick, and realistic 1.37" turf made from durable
+                  polyethylene and polypropylene for long-lasting performance
+                  indoors or outdoors.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-1 mb-4">
+                  <li>4-tone lush grass with natural look and feel</li>
+                  <li>Rubber backing with drainage holes</li>
+                  <li>UV-resistant and weatherproof</li>
+                  <li>Low maintenance — no mowing or watering</li>
+                </ul>
+                <a
+                  href="https://amzn.to/48isdvV"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg transition"
+                >
+                  👉 Check Price on Amazon
+                </a>
 
+                <div className="mt-3 text-gray-700 text-sm">
+                  <span className="font-semibold">Recommended for:</span> lawns,
+                  patios, pet zones, and balconies.
+                </div>
+              </div>
+              <div>
+                <Image
+                  alt="pet growig artificial grass"
+                  src="/dogGrass/petGrowGrass.webp"
+                  width={800}
+                  height={600}
+                />
+              </div>
+            </div>
+            {/* delete */}
+
+            {/* Product 6: NexGen Cool Turf */}
+            <div className="flex flex-col-reverse md:flex-row border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              <div>
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
+                  🟢 PETMAKER Artificial Grass Puppy Pee Pad – Easy Pet Training
+                </h3>
+                <p className="text-gray-700 mb-3">
+                  Reusable 3-layer dog potty pad with tray for indoor or balcony
+                  use. Perfect for small pets, providing a clean, eco-friendly
+                  solution for potty training.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-1 mb-4">
+                  <li>
+                    Three-layer design with turf, drainage insert, and tray
+                  </li>
+                  <li>
+                    Quick-draining and easy to rinse for hassle-free cleanup
+                  </li>
+                  <li>
+                    Durable synthetic plastic — non-slip and odor-resistant
+                  </li>
+                  <li>Ideal for apartments, balconies, and small pet spaces</li>
+                </ul>
+                <a
+                  href="https://amzn.to/46HzKDj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg transition"
+                >
+                  👉 View on Amazon
+                </a>
+
+                <div className="mt-3 text-gray-700 text-sm">
+                  <span className="font-semibold">Recommended for:</span> potty
+                  training, pet houses, and indoor use for small pets.
+                </div>
+              </div>
+              <div>
+                <Image
+                  alt="Artificial Grass Puppy Pee Pad for Dogs and Small Pets"
+                  src="/dogGrass/Pee_Pad_for_Dogs_Small_Pets.webp"
+                  width={450}
+                  height={200}
+                />
+              </div>
+            </div>
             {/* Product 3: Natura Turf Patch */}
-            <div className="mb-6 p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
-              <h3 className="text-xl font-semibold text-green-700">
-                🟢 Natura Turf Patch for Dogs (Sulking Zones)
-              </h3>
-              <p className="mt-2 text-gray-800">
-                📦 Example Amazon Link: “Natura Turf Small Dog Grass Patch
-                50 × 47 in”
-              </p>
-              <ul className="mt-2 text-gray-700 list-disc list-inside space-y-1">
-                <li>
-                  Designed to keep traffic zones mud-free by protecting soil
-                </li>
-                <li>Interlocking edges make expansion easy</li>
-                <li>Ideal for heavily trafficked spots near doors or gates</li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-green-700 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-green-800 active:bg-green-900 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View on Amazon{" "}
-              </a>
-              <p className="mt-2 text-gray-800 font-medium">Recommended use:</p>
-              <p className="text-gray-700">
-                Mud patch by backdoor or kennel entrance
-              </p>
+            <div className="flex flex-col-reverse md:flex-row border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              <div>
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
+                  🟢 Natura PowerRun Turf for Dogs – Mud-Free Outdoor Solution
+                </h3>
+                <p className="text-gray-700 mb-3">
+                  Keep your yard clean and paw-print free with Natura PowerRun
+                  Turf. Designed for dog owners, this durable turf blends with
+                  natural grass and handles heavy traffic effortlessly.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-1 mb-4">
+                  <li>
+                    Covers up to 75 sq. ft. – ideal for muddy paths or play
+                    zones
+                  </li>
+                  <li>Durable polyethylene for long-term outdoor use</li>
+                  <li>Can be mowed over for natural integration</li>
+                  <li>Prevents muddy paws and protects your lawn</li>
+                </ul>
+                <a
+                  href="https://amzn.to/42vd2vA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg transition"
+                >
+                  👉 View on Amazon
+                </a>
+
+                <div className="mt-3 text-gray-700 text-sm">
+                  <span className="font-semibold">Recommended for:</span> dog
+                  runs, narrow paths, and high-traffic outdoor zones.
+                </div>
+              </div>
+              <div>
+                <Image
+                  alt="natural power run artificial grass"
+                  src="/dogGrass/natural_power_run_artificial grass.webp"
+                  width={800}
+                  height={600}
+                />
+              </div>
             </div>
 
             {/* Product 4: Smart Turf Ultimate Pet */}
-            <div className="mb-6 p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
-              <h3 className="text-xl font-semibold text-green-700">
-                🟢 Smart Turf Ultimate Pet Turf (Mid-Range)
-              </h3>
-              <p className="mt-2 text-gray-800">
-                📦 Example Amazon Link: “Smart Turf Ultimate PET Turf 8 × 10 ft”
-              </p>
-              <ul className="mt-2 text-gray-700 list-disc list-inside space-y-1">
-                <li>40 oz density with Microban antimicrobial coating</li>
-                <li>Dual drainage backing prevents pooling & odor</li>
-                <li>
-                  UV-treated to resist fading; 0.5″ capital pile = quick-drying
-                  rinse
-                </li>
-                <li>Durable enough for large breeds and heavy use</li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-green-700 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-green-800 active:bg-green-900 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 See Price & Reviews{" "}
-              </a>
-              <p className="mt-2 text-gray-800 font-medium">Recommended use:</p>
-              <p className="text-gray-700">
-                Full pet yard, play areas, dog run
-              </p>
+            <div className="flex flex-col-reverse md:flex-row   border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              <div>
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
+                  🟢 LITA Deluxe Artificial Grass Turf – Realistic Mid-Range
+                  Pick
+                </h3>
+                <p className="text-gray-700 mb-3">
+                  Enjoy lush, natural-looking turf with a 1.38" pile height and
+                  4-tone color blend. Safe for kids and pets, this high-density
+                  artificial grass stays green and soft all year round.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-1 mb-4">
+                  <li>Made from premium polypropylene yarns for durability</li>
+                  <li>Rubber backing with drainage holes for easy cleaning</li>
+                  <li>Eco-friendly, non-toxic, and lead-free surface</li>
+                  <li>
+                    Ideal for patios, play areas, balconies, and event decor
+                  </li>
+                </ul>
+                <a
+                  href="https://amzn.to/4gVmhei"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg transition"
+                >
+                  👉 Check Price on Amazon
+                </a>
+
+                <div className="mt-3 text-gray-700 text-sm">
+                  <span className="font-semibold">Recommended for:</span> homes,
+                  kids’ play zones, pet areas, and stylish balcony setups.
+                </div>
+              </div>
+              <div>
+                <Image
+                  alt="delux artifical grass"
+                  src="/dogGrass/Delux_artifical_grass.webp"
+                  width={800}
+                  height={600}
+                />
+              </div>
             </div>
 
             {/* Product 5: Aberdeen 84 */}
-            <div className="mb-6 p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
-              <h3 className="text-xl font-semibold text-green-700">
-                🟢 Aberdeen 84 by Ideal Turf (Premium)
-              </h3>
-              <p className="mt-2 text-gray-800">
-                📦 Example Amazon Link: “Ideal Turf Aberdeen 84 PET Friendly”
-              </p>
-              <ul className="mt-2 text-gray-700 list-disc list-inside space-y-1">
-                <li>Luxurious feel with 1.125″ pile height, 84 oz weight</li>
-                <li>Dual-flow backing and anti-microbial layer included</li>
-                <li>Soft, lush, and long-lasting—looks like high-end lawns</li>
-                <li>Customizable designs & made in the USA</li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-green-700 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-green-800 active:bg-green-900 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View Today’s Deal{" "}
-              </a>
-              <p className="mt-2 text-gray-800 font-medium">Recommended use:</p>
-              <p className="text-gray-700">
-                Full yard renovation, upscale landscaping
-              </p>
-            </div>
+            <div className="flex flex-col-reverse md:flex-row border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              <div>
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
+                  🟢 Goasis Lawn Premium Synthetic Turf – Natural & Realistic
+                </h3>
+                <p className="text-gray-700 mb-3">
+                  Realistic 1.38" pile height turf with soft 4-tone color blend
+                  for a lush, natural look. Ideal for gardens, pet areas, and
+                  home décor — built to last in any weather.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-1 mb-4">
+                  <li>Eco-friendly, pet-safe, and child-safe material</li>
+                  <li>UV-protected, fire and water-resistant</li>
+                  <li>Slip-resistant rubber backing for stability</li>
+                  <li>
+                    Perfect for indoor/outdoor use — patios, balconies, lawns
+                  </li>
+                </ul>
+                <a
+                  href="https://amzn.to/47cmZ3A"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg transition"
+                >
+                  👉 View on Amazon
+                </a>
 
-            {/* Product 6: NexGen Cool Turf */}
-            <div className="mb-6 p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
-              <h3 className="text-xl font-semibold text-green-700">
-                🟢 NexGen Cool Turf Pet Grass (Heat-Reflective)
-              </h3>
-              <p className="mt-2 text-gray-800">
-                📦 Example Amazon Link: “NexGen Pet Turf Roll 12 × 25 ft”
-              </p>
-              <ul className="mt-2 text-gray-700 list-disc list-inside space-y-1">
-                <li>
-                  Cool turf surface reflective pigments keep it ~15–20°F cooler
-                </li>
-                <li>Great for desert or heat-prone climates</li>
-                <li>Dual drainage backing + green blend for natural shades</li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-green-700 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-green-800 active:bg-green-900 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 Check Price on Amazon
-              </a>
-              <p className="mt-2 text-gray-800 font-medium">Recommended use:</p>
-              <p className="text-gray-700">
-                Hot climates, patios with sun exposure
-              </p>
+                <div className="mt-3 text-gray-700 text-sm">
+                  <span className="font-semibold">Recommended for:</span> home
+                  lawns, pet zones, balconies, and decorative indoor spaces.
+                </div>
+              </div>
+              <div>
+                <Image
+                  alt="Goasis Lawn Premium Synthetic"
+                  src="/dogGrass/Goasis_Lawn_Premium_Synthetic.webp"
+                  width={800}
+                  height={600}
+                />
+              </div>
             </div>
 
             {/* Product 7: TigerTurf Ryno Lawn XL */}
-            <div className="mb-6 p-4 border border-gray-200 rounded-lg shadow-sm bg-white">
-              <h3 className="text-xl font-semibold text-green-700">
-                🟢 TigerTurf Ryno Lawn XL (Heavy Use)
-              </h3>
-              <p className="mt-2 text-gray-800">
-                📦 Example Amazon Link: “TigerTurf Ryno Lawn XL Pet Turf”
-              </p>
-              <ul className="mt-2 text-gray-700 list-disc list-inside space-y-1">
-                <li>Extra-thick blades + high backing density</li>
-                <li>
-                  Heat-laned backing improves drainage; antimicrobial turf
-                </li>
-                <li>Built for large dogs, agility, and high foot traffic</li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-green-700 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-green-800 active:bg-green-900 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 Buy Now on Amazon
-              </a>
-              <p className="mt-2 text-gray-800 font-medium">Recommended use:</p>
-              <p className="text-gray-700">
-                Dog training yards, kennels & large breeds
-              </p>
+            <div className="flex flex-col-reverse md:flex-row border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              <div>
+                <h3 className="text-lg font-semibold text-green-700 mb-2">
+                  🟢 LOOBANI Realistic Artificial Grass Rug – 3×5 ft
+                  Indoor/Outdoor Turf
+                </h3>
+                <p className="text-gray-700 mb-3">
+                  Soft, lush, and high-density turf that feels like real grass —
+                  ideal for balconies, gardens, and pet areas. Made from
+                  UV-resistant PP material with built-in drainage for quick
+                  drying and easy maintenance.
+                </p>
+                <ul className="list-disc list-inside text-gray-600 space-y-1 mb-4">
+                  <li>
+                    Durable, flame-retardant, and weather-resistant synthetic
+                    design
+                  </li>
+                  <li>
+                    Quick-drain backing with grooves and holes for easy cleaning
+                  </li>
+                  <li>
+                    Safe and comfortable for pets and kids — non-toxic materials
+                  </li>
+                  <li>
+                    Low maintenance — no watering, mowing, or fertilizing needed
+                  </li>
+                </ul>
+                <a
+                  href="https://amzn.to/4q4mznC"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-lg transition"
+                >
+                  👉 View on Amazon
+                </a>
+
+                <div className="mt-3 text-gray-700 text-sm">
+                  <span className="font-semibold">Recommended for:</span>{" "}
+                  patios, gardens, balconies, pet lawns, and small outdoor
+                  areas.
+                </div>
+              </div>
+              <div>
+                <Image
+                  alt="LOOBANI Realistic Artificial Grass"
+                  src="/dogGrass/dog_grass_mat.webp"
+                  width={1000}
+                  height={800}
+                />{" "}
+              </div>
             </div>
           </div>
           <h2 className="text-2xl font-bold mt-8 mb-4" id="comparison-table">
@@ -739,7 +857,7 @@ function Dog() {
 
             <div className="text-center">
               <a
-                href="https://www.amazon.com/s?k=pet+artificial+grass" // Replace with your affiliate link
+                href="https://amzn.to/3KzJjLS" // Replace with your affiliate link
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-emerald-600 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-emerald-700 transition duration-200"

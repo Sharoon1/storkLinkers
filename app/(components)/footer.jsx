@@ -60,7 +60,7 @@ function Footer() {
             </a>
             <a href="https://www.pinterest.com/storklinkers" target="_blank">
               <Image
-                src="pinterest.svg"
+                src="/pinterest.svg"
                 width={30}
                 height={30}
                 alt="pinterest icon"
