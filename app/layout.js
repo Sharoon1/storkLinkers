@@ -26,41 +26,49 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${poppins.variable} ${openSans.variable}`}>
+    <html lang="en-US" className={`${poppins.variable} ${openSans.variable}`}>
       <head>
-        {/* googel analytics */}
+        {/* Google Analytics */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-DSRTXMHBX6"
         />
         <Script id="google-analytics">
           {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-DSRTXMHBX6');
-  `}
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DSRTXMHBX6');
+          `}
         </Script>
 
-        {/* Hreflang for USA */}
+        {/* hreflang for USA */}
         <link
           rel="alternate"
           href="https://www.storklinkers.com/"
           hrefLang="en-us"
         />
-        {/* Organization Logo Schema */}
+
+        {/* Geo Targeting for USA */}
+        <meta name="geo.region" content="US" />
+        <meta name="geo.placename" content="United States" />
+        <meta name="geo.position" content="37.0902;-95.7129" />
+        <meta name="ICBM" content="37.0902, -95.7129" />
+        <meta name="language" content="English" />
+        <meta name="distribution" content="global" />
+
         {/* Favicon / Logo */}
         <link rel="icon" href="/BrandName.svg" type="image/svg+xml" />
 
         {/* Open Graph for social + Google */}
-        <meta property="og:site_name" content="Storklinkers" />
+        <meta property="og:site_name" content="Stork Linkers" />
         <meta
           property="og:title"
-          content="Storklinkers - Your Trusted Ecommerce Store"
+          content="Stork Linkers | Smart Home Solutions & Practical Living Tips"
         />
         <meta
           property="og:description"
-          content="Shop with confidence at Storklinkers. Quality products, secure checkout, and fast delivery."
+          content="Discover smart home solutions, artificial grass ideas, and storage tips with Stork Linkers. Affordable, stylish, and practical upgrades for modern living."
         />
         <meta property="og:url" content="https://www.storklinkers.com/" />
         <meta
@@ -69,14 +77,14 @@ export default function RootLayout({ children }) {
         />
 
         {/* Twitter Card */}
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Storklinkers - Your Trusted Ecommerce Store"
+          content="Stork Linkers | Smart Home Solutions & Practical Living Tips"
         />
         <meta
           name="twitter:description"
-          content="Shop with confidence at Storklinkers."
+          content="Discover affordable, stylish smart home and lifestyle solutions at Stork Linkers."
         />
         <meta
           name="twitter:image"
@@ -90,13 +98,19 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Storklinkers",
+              name: "Stork Linkers",
               url: "https://www.storklinkers.com/",
               logo: "https://www.storklinkers.com/BrandName.svg",
+              sameAs: [
+                "https://www.facebook.com/StorkLinkers",
+                "https://www.instagram.com/StorkLinkers",
+                "https://www.linkedin.com/company/storklinkers",
+              ],
             }),
           }}
         />
       </head>
+
       <body>
         <Header />
         {children}

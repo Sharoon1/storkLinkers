@@ -305,9 +305,6 @@ function SmartHomeGadgets() {
                     Creating automated schedules, saving energy, and controlling
                     devices that lack smart features.
                     <br />
-                    <strong className="text-amber-600">Price:</strong> ~$24
-                    (2-pack)
-                    <br />
                     <strong className="text-amber-600">Best For:</strong>
                     A simple and affordable entry point into home automation.
                     <br />
@@ -346,8 +343,6 @@ function SmartHomeGadgets() {
                     Screening visitors, monitoring package deliveries, and
                     deterring unwanted guests.
                     <br />
-                    <strong className="text-amber-600">Price:</strong> ~$99
-                    <br />
                     <strong className="text-amber-600">Best For:</strong>
                     Essential front door security and peace of mind.
                     <br />
@@ -383,8 +378,6 @@ function SmartHomeGadgets() {
                     <br />
                     <strong className="text-amber-600">Great for:</strong>
                     Accent lighting behind TVs, under cabinets, or in bedrooms.
-                    <br />
-                    <strong className="text-amber-600">Price:</strong> ~$22
                     <br />
                     <strong className="text-amber-600">Best For:</strong>
                     Creating customizable and stylish mood lighting on a budget.
@@ -424,8 +417,6 @@ function SmartHomeGadgets() {
                     Key-free entry, remote access for guests or service
                     providers, and enhanced security.
                     <br />
-                    <strong className="text-amber-600">Price:</strong> ~$199
-                    <br />
                     <strong className="text-amber-600">Best For:</strong>
                     Modernizing your home's entry and access control.
                     <br />{" "}
@@ -464,8 +455,6 @@ function SmartHomeGadgets() {
                     <strong className="text-amber-600">Great for:</strong>
                     Automating your HVAC system, reducing energy consumption,
                     and remote climate control.
-                    <br />
-                    <strong className="text-amber-600">Price:</strong> ~$249
                     <br />
                     <strong className="text-amber-600">Best For:</strong>
                     Long-term energy savings and effortless home comfort.
@@ -623,7 +612,6 @@ function SmartHomeGadgets() {
                   <th className="px-4 py-2 text-left">Category</th>
                   <th className="px-4 py-2 text-left">Best Gadget</th>
                   <th className="px-4 py-2 text-left">Key Feature</th>
-                  <th className="px-4 py-2 text-left">Price</th>
                 </tr>
               </thead>
               <tbody>
@@ -633,7 +621,6 @@ function SmartHomeGadgets() {
                   <td className="border px-4 py-2">
                     HD touchscreen + Alexa control
                   </td>
-                  <td className="border px-4 py-2">~$129</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Budget Security</td>
@@ -649,7 +636,6 @@ function SmartHomeGadgets() {
                   <td className="border px-4 py-2">
                     Music sync & millions of colors
                   </td>
-                  <td className="border px-4 py-2">~$22</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Automated Cleaning</td>
@@ -657,7 +643,6 @@ function SmartHomeGadgets() {
                   <td className="border px-4 py-2">
                     Self-charging & app scheduling
                   </td>
-                  <td className="border px-4 py-2">~$179</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Climate Control</td>
@@ -665,7 +650,6 @@ function SmartHomeGadgets() {
                   <td className="border px-4 py-2">
                     Learns habits to save energy
                   </td>
-                  <td className="border px-4 py-2">~$249</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Keyless Entry</td>
@@ -673,7 +657,6 @@ function SmartHomeGadgets() {
                   <td className="border px-4 py-2">
                     Remote locking & guest access
                   </td>
-                  <td className="border px-4 py-2">~$199</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Appliance Automation</td>
@@ -681,7 +664,6 @@ function SmartHomeGadgets() {
                   <td className="border px-4 py-2">
                     Compact design & voice control
                   </td>
-                  <td className="border px-4 py-2">~$24 (2-pack)</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Doorway Monitoring</td>
@@ -689,7 +671,6 @@ function SmartHomeGadgets() {
                   <td className="border px-4 py-2">
                     1080p video & two-way talk
                   </td>
-                  <td className="border px-4 py-2">~$99</td>
                 </tr>
               </tbody>
             </table>
