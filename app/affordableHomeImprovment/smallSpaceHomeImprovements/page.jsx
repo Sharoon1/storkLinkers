@@ -285,7 +285,7 @@ function SmallSpaceHomeImprovements() {
               </div>
               <div className="md:w-1/3 flex items-center">
                 <Image
-                  src="/HomeImprovement/UnderBedStorage.webp"
+                  src="/HomeImprovement/underbedstorage.webp"
                   alt="Wheeled under-bed storage containers"
                   width={1400}
                   height={1000}
