@@ -126,7 +126,7 @@ function page() {
           <div className="space-y-6">
             {/* 1 */}
             <div className="flex flex-col-reverse md:flex-row gap-3 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   1. BLACK+DECKER 20V MAX PowerConnect Cordless Drill
                 </h3>
@@ -181,7 +181,7 @@ function page() {
 
             {/* 2 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   2. Amazon Basics 65-Piece Home Basic Repair Tool Kit
                 </h3>
@@ -233,7 +233,7 @@ function page() {
 
             {/* 3 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   3. IRWIN VISE-GRIP GrooveLock Pliers Set (2-Piece)
                 </h3>
@@ -285,7 +285,7 @@ function page() {
 
             {/* 4 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   4. C.H. Hanson 03040 Magnetic Stud Finder
                 </h3>
@@ -336,7 +336,7 @@ function page() {
 
             {/* 5 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   5. CRAFTSMAN 25-Foot Tape Measure
                 </h3>
@@ -388,7 +388,7 @@ function page() {
 
             {/* 6 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   6. Dremel 7760-N/10 Lite Cordless Rotary Tool Kit
                 </h3>
@@ -439,7 +439,7 @@ function page() {
 
             {/* 7 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   7. Klein Tools 11046 Wire Stripper and Cutter
                 </h3>
@@ -491,7 +491,7 @@ function page() {
 
             {/* 8 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   8. WORKPRO 16-inch Wide Mouth Tool Bag with Water Proof Base
                 </h3>
@@ -543,7 +543,7 @@ function page() {
 
             {/* 9 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   9. Kreg KMA3220 Pocket-Hole Jig Mini
                 </h3>
@@ -594,7 +594,7 @@ function page() {
 
             {/* 10 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
-              <div className="w-2/3">
+              <div className="md:w-2/3">
                 <h3 className="text-xl text-amber-600 font-semibold mb-2">
                   10. DOWELL 10-Piece Magnetic Screwdriver Set
                 </h3>
