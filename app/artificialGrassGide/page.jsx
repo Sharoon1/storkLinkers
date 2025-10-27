@@ -1331,8 +1331,9 @@ function ArtificialGrass() {
             <h2 className="text-lg font-bold mb-4">Last Updated</h2>
             <div className="mb-4 p-2 rounded">
               <p>
-                This guide was reviewed and verified by our senior staff on May
-                25, 2025, based on hands-on testing and industry research.
+                This guide was reviewed and verified by our senior staff on
+                October 27, 2025, based on hands-on testing and industry
+                research.
               </p>
             </div>
           </aside>
