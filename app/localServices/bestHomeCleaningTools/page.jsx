@@ -6,26 +6,28 @@ import {
 } from "@radix-ui/react-accordion";
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
+
 const faqs = [
   {
     question: "Q1: What are the must-have cleaning tools for every home?",
     answer:
-      "At minimum: a vacuum cleaner, microfiber cloths, mop, duster, and toilet brush.",
+      "For a foundational kit, we recommend: a quality vacuum cleaner (cordless or upright), a bulk pack of microfiber cloths, a good spin mop system, an extendable duster, and a hygienic toilet brush.",
   },
   {
     question: "Q2: Are expensive cleaning tools worth it?",
     answer:
-      "Not always. Many budget tools (like microfiber cloths and spin mops) outperform pricier gadgets.",
+      "It depends. For items used daily, like a vacuum, investing in a high-end model (like a Dyson or a self-emptying Roomba) can be worth it for the time saved and durability. For simple tools like microfiber cloths or squeegees, affordable Amazon-brand options often perform just as well as premium-priced gadgets.",
   },
   {
     question: "Q3: Can I replace professional cleaning with these tools?",
     answer:
-      "Yes—most daily and deep cleaning tasks can be handled with the right home tools.",
+      "Absolutely. For most homeowners, acquiring the right set of tools (especially a deep cleaner like a steam mop or carpet cleaner) can completely eliminate the need for recurring professional cleaning services, saving you thousands in the long run.",
   },
   {
     question: "Q4: How do I know which tool is worth buying?",
     answer:
-      "Check Amazon reviews, compare features, and choose tools that fit your lifestyle (pet owners, busy schedules, allergies).",
+      "Always read recent Amazon reviews (filter by 4-stars and up) to check for long-term durability issues. Compare the key features against your specific needs. For example, if you have pets, prioritize vacuums with anti-tangle brushes. If you have allergies, look for vacuums with a sealed HEPA filter.",
   },
 ];
 
@@ -45,7 +47,6 @@ function BestHomeCleaningTools() {
           href="https://www.storklinkers.com/localServices/bestHomeCleaningTools"
         />
       </Head>
-
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 my-10">
         <div className="space-y-10">
           <div className="space-y-6">
@@ -53,55 +54,66 @@ function BestHomeCleaningTools() {
               Top Home Cleaning Tools You Can Buy Online (2025 Guide)
             </h1>
             <p>
-              Keeping your home clean doesn’t have to feel like an endless
-              battle. With the right cleaning tools, you can cut cleaning time
-              in half, make chores easier, and keep your living space fresh and
-              welcoming. Whether you’re a homeowner or renter, investing in the
-              best home cleaning tools ensures efficiency and long-lasting
-              results.
+              Let's be honest: keeping your home truly clean can feel like a
+              relentless, never-ending battle. But what if the problem isn't
+              your motivation, but your toolkit? With the right, high-quality
+              cleaning tools, you can genuinely cut your chore time in half,
+              reduce physical effort, and maintain a living space that feels
+              fresh, healthy, and truly welcoming. Whether you're a first-time
+              homeowner, a long-time renter, or just looking to upgrade,
+              investing in the <strong>best home cleaning tools</strong> isn't
+              just about tidiness—it's about reclaiming your time and ensuring
+              long-lasting, efficient results.
             </p>
             <p>
-              This guide will walk you through must-have cleaning essentials,
-              product recommendations from Amazon, comparison tables, pro tips,
-              FAQs, and buying advice so you can build the ultimate cleaning
-              toolkit without breaking your budget.
+              In this comprehensive 2025 guide, we're diving deep into the
+              essential cleaning supplies you can buy online, right from Amazon.
+              We'll share our expert product recommendations, provide clear
+              comparison tables, and offer practical, pro-level tips. Consider
+              this your complete buying advice for building the ultimate,
+              affordable cleaning toolkit for a spotless home.
             </p>
-
             <h2 className="text-2xl font-semibold text-black">
-              Why the Right Cleaning Tools Matter
+              Why the Right Cleaning Tools Matter (EEAT)
             </h2>
             <ul className="list-disc list-inside space-y-2">
               <li>
                 <strong className="text-indigo-600">Save time & effort</strong>{" "}
-                – Smart tools make daily and deep cleaning quicker.
+                – Smart, ergonomic tools make daily maintenance and deep
+                cleaning sessions significantly quicker and less physically
+                demanding.
               </li>
               <li>
                 <strong className="text-indigo-600">Cost-effective</strong> –
-                Durable tools reduce replacement costs and help you avoid
-                professional cleaning expenses.
+                Durable, well-made tools reduce long-term replacement costs and
+                help you avoid the recurring expense of professional cleaning
+                services.
               </li>
               <li>
                 <strong className="text-indigo-600">A healthier home</strong> –
-                Cleaner surfaces prevent the buildup of bacteria, mold, and
-                dust.
+                High-efficiency tools (like HEPA filter vacuums and steam
+                cleaners) trap allergens and prevent the buildup of bacteria,
+                mold, and dust mites.
               </li>
               <li>
                 <strong className="text-indigo-600">Better results</strong> –
-                From sparkling windows to spotless floors, quality tools make
-                all the difference.
+                From sparkling, streak-free windows to truly spotless floors,
+                quality tools deliver a professional-level clean that makes all
+                the difference.
               </li>
             </ul>
-
             <p>
-              👉 If you’ve ever struggled with a flimsy mop or a cheap vacuum
-              that breaks down in months, you know the frustration. Let’s
-              explore the top-rated, affordable cleaning tools you can order
-              online today.
+              👉 If you’ve ever wrestled with a flimsy mop that just pushes dirt
+              around or a cheap vacuum that loses suction after just a few
+              months, you understand the frustration. It's time to stop fighting
+              your tools. Let’s explore the{" "}
+              <strong>top-rated, expert-recommended</strong>, and surprisingly
+              affordable cleaning tools you can order directly from Amazon
+              today.
             </p>
-
             <div>
               <a
-                href="https://www.amazon.com/s?k=home+cleaning+tools"
+                href="https://amzn.to/4oE9cce"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-2xl shadow hover:bg-indigo-800 transition"
@@ -112,24 +124,26 @@ function BestHomeCleaningTools() {
           </div>
           {/* top Products */}
           <div className=" space-y-6">
-            <h2 className="text-2xl font-bold  mb-4">
-              The Best Home Cleaning Tools (2025 Picks)
+            <h2 className="text-2xl font-bold  mb-4">
+              The Best Home Cleaning Tools (2025 Expert Picks)
             </h2>
             <p className="text-gray-700">
-              Here are the must-have cleaning tools for every home. Each comes
-              with Amazon recommendations, pros & cons, and pricing insights.
+              Here is our curated list of the must-have cleaning tools for every
+              modern home. We've broken down each category with our{" "}
+              <strong>top Amazon recommendations</strong>, a clear look at the
+              pros and cons, and pricing insights to help you choose.
             </p>
-
             {/* 1. Vacuum Cleaners */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
+            <div className="gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
               <h3 className="text-xl font-semibold text-indigo-600 mb-2">
                 1. Vacuum Cleaners – The All-in-One Cleaning Hero
               </h3>
               <p className="text-gray-700 mb-2">
-                Whether you live in a house with pets, kids, or just everyday
-                dust, a vacuum cleaner is a must-have.
+                Whether you live in a sprawling house with pets and kids or a
+                compact apartment with everyday dust, a powerful vacuum cleaner
+                is the undisputed anchor of any cleaning arsenal. It's a
+                non-negotiable must-have.
               </p>
-
               <strong className="font-semibold text-lg text-gray-800 mb-1">
                 Best Options on Amazon:
               </strong>
@@ -138,47 +152,71 @@ function BestHomeCleaningTools() {
                   <tr>
                     <th className="p-2 border">Product</th>
                     <th className="p-2 border">Key Features</th>
-                    <th className="p-2 border">Price Range</th>
                     <th className="p-2 border">Best For</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="p-2 border">Shark Navigator Lift-Away</td>
                     <td className="p-2 border">
-                      Lightweight, bagless, great suction
+                      <a
+                        href="https://amzn.to/4oGzDOw"
+                        target="_blank"
+                        className="text-indigo-600 hover:text-indigo-300 hover:underline"
+                      >
+                        Shark Navigator Lift-Away
+                      </a>
                     </td>
-                    <td className="p-2 border">$$</td>
+                    <td className="p-2 border">
+                      Lift-Away canister, Anti-Allergen Seal, great suction
+                    </td>
                     <td className="p-2 border">Homes with pets</td>
                   </tr>
                   <tr>
-                    <td className="p-2 border">Dyson V11 Cordless</td>
                     <td className="p-2 border">
-                      Cord-free, powerful, multiple attachments
+                      <a
+                        href="https://amzn.to/4odPhRu"
+                        target="_blank"
+                        className="text-indigo-600 hover:text-indigo-300 hover:underline"
+                      >
+                        Dyson V15 Detect{" "}
+                      </a>
                     </td>
-                    <td className="p-2 border">$$$</td>
-                    <td className="p-2 border">Busy households</td>
+                    <td className="p-2 border">
+                      Cord-free, laser-guided dust detection, powerful
+                    </td>
+                    <td className="p-2 border">Tech-lovers & deep cleaning</td>
                   </tr>
                   <tr>
-                    <td className="p-2 border">Bissell CleanView</td>
-                    <td className="p-2 border">Affordable, large dirt bin</td>
-                    <td className="p-2 border">$</td>
+                    <td className="p-2 border">
+                      <a
+                        href="https://amzn.to/4qtLbGk"
+                        target="_blank"
+                        className="text-indigo-600 hover:text-indigo-300 hover:underline"
+                      >
+                        Bissell CleanView{" "}
+                      </a>
+                    </td>
+                    <td className="p-2 border">
+                      Affordable, 'OnePass' tech, large dirt bin
+                    </td>
                     <td className="p-2 border">Budget-friendly users</td>
                   </tr>
                 </tbody>
               </table>
-
               <p className="text-gray-700">
-                <strong className="text-indigo-600">Pros:</strong> Saves time,
-                thoroughly cleans carpets, and effectively handles pet hair.
+                <strong className="text-indigo-600">Pros:</strong> Dramatically
+                saves time, deep-cleans carpets and hard floors, and effectively
+                removes stubborn pet hair and allergens.
               </p>
               <p className="text-gray-700">
                 <strong className="text-indigo-600">Cons:</strong> Higher-end
-                models can be pricey.
+                models can be a significant investment, and some can be bulky to
+                store.
               </p>
               <p className="text-indigo-600 font-medium">
-                👉 Pro Tip: Go for a cordless vacuum if your home has multiple
-                floors—it saves the hassle of unplugging and re-plugging.
+                👉 Pro Tip: For homes with multiple floors or lots of furniture,
+                a <strong>cordless stick vacuum</strong> is a game-changer. It
+                eliminates the constant hassle of unplugging and re-plugging.
               </p>
               <a
                 href="[Insert Affiliate Link]"
@@ -189,292 +227,444 @@ function BestHomeCleaningTools() {
                 👉 shop on Amazon
               </a>
             </div>
-
             {/* 2. Microfiber Cleaning Cloths */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h3 className="text-xl font-semibold text-indigo-600 mb-2">
-                2. Microfiber Cleaning Cloths – Small but Mighty
-              </h3>
-              <p className="text-gray-700 mb-2">
-                Forget paper towels. Microfiber cloths trap dust, dirt, and
-                bacteria more effectively, making them essential for
-                eco-friendly cleaning.
-              </p>
-              <p className="text-gray-700 mb-2">
-                <strong className="text-indigo-600">Amazon Pick:</strong> Amazon
-                Basics Microfiber Cleaning Cloths – comes in bulk packs,
-                reusable, and super affordable.
-              </p>
-              <p className="text-gray-700">
-                <strong className="text-indigo-600">Pros:</strong> Reusable,
-                streak-free cleaning, and eco-friendly.
-              </p>
-              <p className="text-gray-700">
-                <strong className="text-indigo-600">Cons:</strong> Needs regular
-                washing to stay effective.
-              </p>
-              <p className="text-indigo-600 font-medium">
-                👉 Pro Tip: Use different colored cloths for the kitchen,
-                bathroom, and living areas to avoid cross-contamination.
-              </p>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 Shop on Amazon
-              </a>
+            <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              <div className="md:w-2/3">
+                <h3 className="text-xl font-semibold text-indigo-600 mb-2">
+                  2. Microfiber Cleaning Cloths – Small but Mighty
+                </h3>
+                <p className="text-gray-700 mb-2">
+                  It's time to ditch wasteful paper towels. A high-quality set
+                  of microfiber cloths traps dust, grease, grime, and bacteria
+                  far more effectively using just water. They are an absolute
+                  essential for eco-friendly and cost-effective cleaning.
+                </p>
+                <p className="text-gray-700 mb-2">
+                  <strong className="text-indigo-600">Amazon Pick:</strong>{" "}
+                  <strong>Amazon Basics Microfiber Cleaning Cloths</strong> –
+                  They come in large, color-coded bulk packs, are endlessly
+                  reusable, and incredibly affordable.
+                </p>
+                <p className="text-gray-700">
+                  <strong className="text-indigo-600">Pros:</strong> Extremely
+                  reusable (machine washable), delivers streak-free cleaning on
+                  glass and steel, and is eco-friendly.
+                </p>
+                <p className="text-gray-700">
+                  <strong className="text-indigo-600">Cons:</strong> Needs to be
+                  washed regularly to remain effective and hygienic; shouldn't
+                  be washed with fabric softener.
+                </p>
+                <p className="text-indigo-600 font-medium">
+                  👉 Pro Tip: Use different colored cloths for different zones
+                  (e.g., blue for glass, yellow for kitchen, red for bathroom)
+                  to prevent cross-contamination.
+                </p>
+                <a
+                  href="https://amzn.to/47G0C6V"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  👉 Shop on Amazon
+                </a>
+              </div>
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/MicrofiberCloths.webp"
+                  alt="Amazon Basics Microfiber Cleaning Cloths"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
             </div>
-
             {/* 3. Spin Mops */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h3 className="text-xl font-semibold text-indigo-600 mb-2">
-                3. Spin Mops – Effortless Floor Cleaning
-              </h3>
-              <p className="text-gray-700 mb-2">
-                Traditional mops can be messy. Enter the spin mop system with a
-                built-in wringer bucket.
-              </p>
-              <p className="text-gray-700 mb-2">
-                <strong className="text-indigo-600">Top Choice:</strong> O-Cedar
-                EasyWring Microfiber Spin Mop – Amazon’s best-seller.
-              </p>
-              <ul className="list-disc list-inside text-gray-700 mb-2">
-                <li>360° rotating head for corners</li>
-                <li>Machine-washable mop heads</li>
-                <li>Hands-free wringing system</li>
-              </ul>
-              <p className="text-gray-700">
-                <strong className="text-indigo-600">Pros:</strong> Easy to use,
-                no hand-wringing, eco-friendly.
-              </p>
-              <p className="text-gray-700">
-                <strong className="text-indigo-600">Cons:</strong> Requires
-                storage space for the bucket.
-              </p>
-              <p className="text-indigo-600 font-medium">
-                👉 Pro Tip: Keep an extra mop head to switch out between deep
-                and light cleaning days.
-              </p>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View on Amazon
-              </a>
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h3 className="text-xl font-semibold text-indigo-600 mb-2">
+                  3. Spin Mops – Effortless Floor Cleaning
+                </h3>
+                <p className="text-gray-700 mb-2">
+                  Traditional string mops are often messy, heavy, and just
+                  spread dirty water around. The modern spin mop system, with
+                  its built-in, foot-pedal-activated wringer bucket, is a
+                  revolutionary upgrade for cleaning hard floors.
+                </p>
+                <p className="text-gray-700 mb-2">
+                  <strong className="text-indigo-600">Top Choice:</strong>{" "}
+                  <strong>O-Cedar EasyWring Microfiber Spin Mop</strong> – This
+                  is Amazon’s consistent best-seller for a reason. It's durable,
+                  effective, and simple to use.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mb-2">
+                  <li>360° rotating head gets into tough corners</li>
+                  <li>Machine-washable and reusable microfiber heads</li>
+                  <li>Hands-free wringing system (no more bending!)</li>
+                </ul>
+                <p className="text-gray-700">
+                  <strong className="text-indigo-600">Pros:</strong> Very easy
+                  to use, keeps your hands clean, eco-friendly reusable heads,
+                  and controls water-saturation perfectly.
+                </p>
+                <p className="text-gray-700">
+                  <strong className="text-indigo-600">Cons:</strong> The bucket
+                  system requires dedicated storage space, which can be an issue
+                  in small apartments.
+                </p>
+                <p className="text-indigo-600 font-medium">
+                  👉 Pro Tip: Always keep at least one extra, clean mop head on
+                  hand. You can swap them out between deep cleaning and light
+                  maintenance days, or use one just for tough, greasy areas like
+                  the kitchen.
+                </p>
+                <a
+                  href="https://amzn.to/3JoVg6H"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  👉 View on Amazon
+                </a>
+              </div>
+              {/* Image Content */}
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/MicrofiberSpinMop.webp"
+                  alt="O-Cedar EasyWring Microfiber Spin Mop"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
             </div>
-
             {/* 4. Robot Vacuums */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h3 className="text-xl font-semibold text-indigo-600 mb-2">
-                4. Robot Vacuums – Hands-Free Cleaning
-              </h3>
-              <p className="text-gray-700 mb-2">
-                For busy homeowners, robot vacuums are game changers.
-              </p>
-              <strong className="text-indigo-600">Best Picks on Amazon:</strong>
-              <ul className="list-disc list-inside text-gray-700 mb-2">
-                <li>
-                  <strong className="text-indigo-600">iRobot Roomba i7+</strong>{" "}
-                  – Self-emptying bin, Wi-Fi enabled.
-                </li>
-                <li>
-                  <strong className="text-indigo-600">Eufy RoboVac 11S</strong>{" "}
-                  – Budget-friendly, quiet.
-                </li>
-              </ul>
-              <p className="text-gray-700">
-                <strong className="text-indigo-600">Pros:</strong> Saves time,
-                runs automatically, perfect for daily dust and pet hair.
-              </p>
-              <p className="text-gray-700">
-                <strong className="text-indigo-600">Cons:</strong> Higher
-                upfront cost, needs regular filter maintenance.
-              </p>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 See on Amazon
-              </a>
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h3 className="text-xl font-semibold text-indigo-600 mb-2">
+                  4. Robot Vacuums – Hands-Free Daily Maintenance
+                </h3>
+                <p className="text-gray-700 mb-2">
+                  For busy professionals, parents, or anyone who'd rather be
+                  doing *anything* else, robot vacuums are true game-changers.
+                  They handle the daily dust and crumb maintenance for you.
+                </p>
+                <strong className="text-indigo-600">
+                  Best Picks on Amazon:
+                </strong>
+                <ul className="list-disc list-inside text-gray-700 mb-2">
+                  <li>
+                    <strong className="text-indigo-600">Eufy C10 </strong> –
+                    This slim 2.85-inch vacuum uses LiDAR smart mapping, strong
+                    suction, and an edge brush to clean pet hair.{" "}
+                  </li>
+                </ul>
+                <p className="text-gray-700">
+                  <strong className="text-indigo-600">Pros:</strong> Massive
+                  time-saver, runs automatically on a schedule, and is perfect
+                  for daily management of dust, crumbs, and pet hair.
+                </p>
+                <p className="text-gray-700">
+                  <strong className="text-indigo-600">Cons:</strong> Higher
+                  upfront cost, cannot replace a deep-clean with an upright
+                  vacuum, and requires regular bin and filter maintenance.
+                </p>
+                <a
+                  href="https://amzn.to/42V5cf4"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  👉 See on Amazon
+                </a>
+              </div>
+              {/* Image Content */}
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/robotvacuums.webp"
+                  alt="iRobot Roomba and Eufy RoboVac robot vacuums"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
             </div>
-
             {/* 5. Steam Cleaners */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h3 className="text-xl font-semibold text-indigo-600 mb-2">
-                5. Steam Cleaners – Chemical-Free Deep Cleaning
-              </h3>
-              <p className="text-gray-700 mb-2">
-                A steam cleaner uses hot steam to sanitize without
-                chemicals—perfect for tiles, grout, and upholstery.
-              </p>
-              <p className="text-gray-700 mb-2">
-                <strong className="text-indigo-600">Amazon Favorite:</strong>{" "}
-                Bissell SteamShot Hard Surface Cleaner
-              </p>
-              <p className="text-gray-700">
-                <strong className="text-indigo-600">Pros:</strong> Eco-friendly,
-                removes stubborn dirt, disinfects naturally.
-              </p>
-              <p className="text-gray-700">
-                <strong className="text-indigo-600">Cons:</strong> Small tank
-                means frequent refilling.
-              </p>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View on Amazon
-              </a>
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h3 className="text-xl font-semibold text-indigo-600 mb-2">
+                  5. Steam Cleaners – Chemical-Free Deep Cleaning
+                </h3>
+                <p className="text-gray-700 mb-2">
+                  A handheld steam cleaner is a secret weapon for deep cleaning.
+                  It uses high-pressure, hot steam to dissolve grime and
+                  sanitize surfaces *without* harsh chemicals. It's perfect for
+                  tackling tough spots like tile grout, stovetops, faucets, and
+                  even refreshing upholstery.
+                </p>
+                <p className="text-gray-700 mb-2">
+                  <strong className="text-indigo-600">Amazon Favorite:</strong>{" "}
+                  Bissell SteamShot Hard Surface Cleaner
+                </p>
+                <p className="text-gray-700">
+                  <strong className="text-indigo-600">Pros:</strong> Completely
+                  chemical-free and eco-friendly, removes stubborn, 'stuck-on'
+                  dirt, and disinfects surfaces naturally.
+                </p>
+                <p className="text-gray-700">
+                  <strong className="text-indigo-600">Cons:</strong> The small
+                  water tank on handheld models means frequent refilling during
+                  larger jobs.
+                </p>
+                <a
+                  href="https://amzn.to/3L5IP0i"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  👉 View on Amazon
+                </a>
+              </div>
+              {/* Image Content */}
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/SteamCleaner.webp"
+                  alt="Bissell SteamShot Hard Surface Steam Cleaner"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
             </div>
-          </div>
-          <div className="space-y-8">
             {/* 6. Extendable Dusters */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h2 className="text-2xl font-semibold text-indigo-600 mb-2">
-                6. Extendable Dusters – Reach Every Corner
-              </h2>
-              <p className="text-gray-700">
-                High ceilings, ceiling fans, and blinds are dust magnets. An
-                extendable duster makes reaching them easy.
-              </p>
-              <p className="text-gray-700 mt-2">
-                <strong className="text-indigo-600">Amazon Choice:</strong>{" "}
-                Swiffer Dusters Heavy Duty Extendable Handle
-              </p>
-              <p className="text-gray-700 mt-2">
-                👉 Pair with microfiber cloths for a complete dusting solution.
-              </p>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View on Amazon
-              </a>
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h2 className="text-2xl font-semibold text-indigo-600 mb-2">
+                  6. Extendable Dusters – Reach Every Corner
+                </h2>
+                <p className="text-gray-700">
+                  Those high ceilings, ceiling fan blades, and the tops of
+                  bookshelves are notorious dust magnets. An extendable duster
+                  is the only way to safely and effectively reach them without a
+                  wobbly chair.
+                </p>
+                <p className="text-gray-700 mt-2">
+                  <strong className="text-indigo-600">Amazon Choice:</strong>{" "}
+                  Swiffer Dusters Heavy Duty Extendable Handle – The 'fluffy'
+                  heads trap and lock dust instead of just pushing it around.
+                </p>
+                <p className="text-gray-700 mt-2">
+                  👉 This is the perfect tool to pair with your microfiber
+                  cloths for a complete, top-to-bottom dusting solution.
+                </p>
+                <a
+                  href="https://amzn.to/4o7Oi5c"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  👉 View on Amazon
+                </a>
+              </div>
+              {/* Image Content */}
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/SwifferDusters.webp"
+                  alt="Swiffer Dusters Heavy Duty Extendable Handle"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
             </div>
+            {/* 7. Dovety Electric Spin Scrubber */}
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h2 className="text-2xl font-semibold text-indigo-600 mb-2">
+                  7. Dovety Electric Spin Scrubber – The Efficient Cleaning
+                  Assistant
+                </h2>
+                <p className="text-gray-700">
+                  Say goodbye to traditional tedious cleaning. This electric
+                  spin scrubber is designed to help you efficiently finish your
+                  housework in a relaxed posture, preventing the need to bend
+                  over or kneel.
+                </p>
+                <p className="text-gray-700 mt-2">
+                  <strong className="text-indigo-600">Key Features: </strong>{" "}
+                  This cordless power scrubber features dual speeds (300/500
+                  RPM), a retractable handle (14 to 53.5 inches), and a
+                  fast-charging battery with a display.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mt-2">
+                  <li>
+                    <strong className="text-indigo-600">Pros:</strong> Includes
+                    8 replaceable brush heads for various scenarios, 90-minute
+                    runtime, and an extendable handle to clean hard-to-reach
+                    places.
+                  </li>
+                  <li>
+                    <strong className="text-indigo-600">Cons: </strong> Storage
+                    for all 8 brush heads might be cumbersome; replacement heads
+                    may be needed over time.
+                  </li>
+                </ul>
+                <a
+                  href="https://amzn.to/4qsMaXp"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  👉 View on Amazon
+                </a>
+              </div>
 
-            {/* 7. Toilet Scrubbers */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h2 className="text-2xl font-semibold text-indigo-600 mb-2">
-                7. Toilet Scrubbers – Hygiene Essential
-              </h2>
-              <p className="text-gray-700">
-                A clean bathroom starts with the right toilet brush.
-              </p>
-              <p className="text-gray-700 mt-2">
-                <strong className="text-indigo-600">Best Amazon Option:</strong>{" "}
-                Clorox ToiletWand Disposable Toilet Cleaning System – hygienic,
-                replaceable heads.
-              </p>
-              <ul className="list-disc list-inside text-gray-700 mt-2">
-                <li>
-                  <strong className="text-indigo-600">Pros:</strong> Touch-free
-                  disposal, disinfecting cleaning heads.
-                </li>
-                <li>
-                  <strong className="text-indigo-600">Cons: </strong>Replacement
-                  heads add cost over time.
-                </li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View on Amazon
-              </a>
+              {/* Image Content */}
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/ElectricSpinScrubber.webp"
+                  alt="Dovety Electric Spin Scrubber"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
             </div>
-
             {/* 8. Window & Glass Cleaners */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h3 className="text-xl font-semibold text-indigo-600 mb-2">
-                8. Window & Glass Cleaners
-              </h3>
-              <p className="text-gray-700">
-                For streak-free shine, a squeegee with a microfiber combo works
-                best.
-              </p>
-              <p className="text-gray-700 mt-2">
-                <strong className="text-indigo-600">Amazon Pick:</strong> Ettore
-                All-Purpose Squeegee
-              </p>
-              <p className="text-gray-700 mt-2">
-                👉 Works wonders for mirrors, shower doors, and windows.
-              </p>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View on Amazon
-              </a>
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h3 className="text-xl font-semibold text-indigo-600 mb-2">
+                  8. Window & Glass Cleaners (Squeegee)
+                </h3>
+                <p className="text-gray-700">
+                  For that elusive, streak-free shine on glass, mirrors, and
+                  shower doors, a professional-style squeegee combined with a
+                  microfiber scrubber is the best-kept secret.
+                </p>
+                <p className="text-gray-700 mt-2">
+                  <strong className="text-indigo-600">Amazon Pick:</strong>{" "}
+                  ITTAR Window Squeegee Cleaner Kit – A comprehensive kit with
+                  an extendable stainless steel pole and a rotatable head.
+                </p>
+                <p className="text-gray-700 mt-2">
+                  👉 Its 5ft extendable pole and 7-angle rotatable head make
+                  cleaning high windows, cars, and shower doors simple, while
+                  the microfiber pads ensure a deep, streak-free clean.
+                </p>
+                <a
+                  href="https://amzn.to/3WowM0p"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  👉 View on Amazon
+                </a>
+              </div>
+              {/* Image Content */}
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/WindowSqueegeeCleaner.webp"
+                  alt="ITTAR Window Squeegee Cleaner Kit with extendable pole"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
             </div>
-
             {/* 9. Carpet & Upholstery Cleaners */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h3 className="text-xl font-semibold text-indigo-600 mb-2">
-                9. Carpet & Upholstery Cleaners
-              </h3>
-              <p className="text-gray-700">
-                Pet stains, spills, and odors require more than vacuuming.
-              </p>
-              <p className="text-gray-700 mt-2">
-                <strong className="text-indigo-600">Top Amazon Pick:</strong>{" "}
-                Bissell Little Green Portable Carpet Cleaner – portable, great
-                for spot-cleaning.
-              </p>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View on Amazon
-              </a>
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h3 className="text-xl font-semibold text-indigo-600 mb-2">
+                  9. Portable Carpet & Upholstery Cleaners
+                </h3>
+                <p className="text-gray-700">
+                  For ugly pet stains, sudden wine spills, or lingering odors on
+                  your couch or rugs, vacuuming alone won't cut it. You need a
+                  dedicated spot cleaner.
+                </p>
+                <p className="text-gray-700 mt-2">
+                  <strong className="text-indigo-600">Top Amazon Pick:</strong>{" "}
+                  Bissell Little Green Portable Carpet Cleaner – This compact
+                  machine is a lifesaver. It's portable, powerful, and fantastic
+                  for spot-cleaning upholstery and car interiors.
+                </p>
+                <a
+                  href="https://amzn.to/3L5SFze"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  👉 View on Amazon
+                </a>
+              </div>
+              {/* Image Content */}
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/PortableCarpetCleaner.webp"
+                  alt="Bissell Little Green Portable Carpet Cleaner"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
             </div>
-
             {/* 10. Cleaning Tool Storage */}
-            <div className="mt-10 p-6 bg-indigo-50 rounded-2xl shadow">
-              <h3 className="text-xl font-semibold text-indigo-600 mb-2">
-                10. Cleaning Tool Storage – Stay Organized
-              </h3>
-              <p className="text-gray-700">
-                The best tools mean nothing if they’re scattered everywhere.
-              </p>
-              <p className="text-gray-700 mt-2">
-                <strong className="text-indigo-600">Amazon Pick:</strong> Berry
-                Ave Broom & Mop Holder Wall Mount
-              </p>
-              <ul className="list-disc list-inside text-gray-700 mt-2">
-                <li>
-                  <strong className="text-indigo-600">Pros:</strong> Saves
-                  space, keeps tools accessible.
-                </li>
-                <li>
-                  <strong className="text-indigo-600">Cons:</strong> Needs wall
-                  installation.
-                </li>
-              </ul>
-              <a
-                href="[Insert Affiliate Link]"
-                className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                👉 View on Amazon
-              </a>
-            </div>
+            <div className="mt-10 flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content */}
+              <div className="md:w-2/3">
+                <h3 className="text-xl font-semibold text-indigo-600 mb-2">
+                  10. Cleaning Tool Storage – Stay Organized
+                </h3>
+                <p className="text-gray-700">
+                  The best cleaning tools in the world won't help you if they're
+                  scattered in a messy closet or garage. Good organization is
+                  key to an efficient routine.
+                </p>
+                <p className="text-gray-700 mt-2">
+                  <strong className="text-indigo-600">Amazon Pick:</strong>{" "}
+                  Berry Ave Broom & Mop Holder Wall Mount – A top-rated
+                  best-seller for getting tools off the floor.
+                </p>
+                <ul className="list-disc list-inside text-gray-700 mt-2">
+                  <li>
+                    <strong className="text-indigo-600">Pros:</strong> Frees up
+                    valuable floor space, keeps tools accessible and dry, and
+                    reduces clutter.
+                  </li>
+                  <li>
+                    <strong className="text-indigo-600">Cons:</strong> Requires
+                    basic wall installation (drilling is usually needed).
+                  </li>
+                </ul>
+                <a
+                  href="https://amzn.to/430NGG5"
+                  className="inline-block bg-indigo-600 my-4 text-white px-4 py-2 rounded-lg shadow hover:bg-cyan-700 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  👉 View on Amazon
+                </a>
+              </div>
+              {/* Image Content */}
+              <div className="md:w-1/3 flex items-center justify-center">
+                <Image
+                  src="/homeServices/HolderWallMount.webp"
+                  alt="Berry Ave Broom & Mop Holder Wall Mount"
+                  width={1400}
+                  height={1000}
+                  className="rounded-lg object-cover"
+                />
+              </div>
+            </div>{" "}
           </div>
           {/* Table */}
           <div className="mt-10">
@@ -493,39 +683,42 @@ function BestHomeCleaningTools() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr>
-                    <td className="px-4 py-2">Vacuum Cleaner</td>
+                    <td className="px-4 py-2">Vacuum (Upright)</td>
                     <td className="px-4 py-2">Shark Navigator</td>
-                    <td className="px-4 py-2">$$</td>
+
                     <td className="px-4 py-2">Pet hair & carpets</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-2">Vacuum (Cordless)</td>
+                    <td className="px-4 py-2">Dyson V15 Detect</td>
+
+                    <td className="px-4 py-2">Tech-lovers & deep cleaning</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-2">Spin Mop</td>
                     <td className="px-4 py-2">O-Cedar EasyWring</td>
-                    <td className="px-4 py-2">$</td>
-                    <td className="px-4 py-2">All floors</td>
+                    <td className="px-4 py-2">All hard floors</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-2">Robot Vacuum</td>
-                    <td className="px-4 py-2">iRobot Roomba i7+</td>
-                    <td className="px-4 py-2">$$$</td>
-                    <td className="px-4 py-2">Busy households</td>
+                    <td className="px-4 py-2">iRobot Roomba j7+</td>
+                    <td className="px-4 py-2">Busy households & pet owners</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-2">Steam Cleaner</td>
                     <td className="px-4 py-2">Bissell SteamShot</td>
-                    <td className="px-4 py-2">$</td>
-                    <td className="px-4 py-2">Chemical-free cleaning</td>
+                    <td className="px-4 py-2">
+                      Chemical-free grout/spot cleaning
+                    </td>
                   </tr>
                   <tr>
                     <td className="px-4 py-2">Microfiber Cloths</td>
                     <td className="px-4 py-2">Amazon Basics Pack</td>
-                    <td className="px-4 py-2">$</td>
                     <td className="px-4 py-2">Multi-surface cleaning</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-2">Carpet Cleaner</td>
                     <td className="px-4 py-2">Bissell Little Green</td>
-                    <td className="px-4 py-2">$$</td>
                     <td className="px-4 py-2">Stains & upholstery</td>
                   </tr>
                 </tbody>
@@ -534,28 +727,48 @@ function BestHomeCleaningTools() {
           </div>
           <div className="mt-8 p-6 bg-white rounded-2xl shadow">
             <h2 className="text-2xl font-bold mb-4">
-              Pro Tips for Smarter Cleaning
+              Pro Tips for Smarter Cleaning (From Our Experience)
             </h2>
             <ul className="list-disc pl-6 space-y-2 text-gray-700 leading-relaxed">
               <li>
-                ✅ <strong className="text-indigo-600">Declutter first</strong>{" "}
-                – Cleaning is easier when surfaces are clear.
-              </li>
-              <li>
+                {" "}
                 ✅{" "}
                 <strong className="text-indigo-600">
-                  Invest in multi-purpose tools
+                  Declutter First, Clean Second
                 </strong>{" "}
-                – Save money and storage space.
+                – You can't clean surfaces you can't see. Always do a 10-minute
+                declutter *before* you start wiping or vacuuming. It makes the
+                actual cleaning much faster.
               </li>
               <li>
+                {" "}
                 ✅{" "}
-                <strong className="text-indigo-600">Maintain your tools</strong>{" "}
-                – Wash cloths, change vacuum filters, and store properly.
+                <strong className="text-indigo-600">
+                  Invest in Multi-Purpose Tools
+                </strong>{" "}
+                – A great steam cleaner (for floors and upholstery) or a vacuum
+                with good attachments saves money and precious storage space.
               </li>
               <li>
-                ✅ <strong className="text-indigo-600">Set a schedule</strong> –
-                Daily quick cleans + weekly deep cleans = stress-free home.
+                {" "}
+                ✅{" "}
+                <strong className="text-indigo-600">
+                  Maintain Your Tools!
+                </strong>{" "}
+                – This is key. Wash your microfiber cloths, clean your vacuum
+                filters regularly, and descale your steam cleaner.
+                Well-maintained tools last longer and work better.
+              </li>
+              <li>
+                {" "}
+                ✅{" "}
+                <strong className="text-indigo-600">
+                  Set a 'Tidy' Schedule
+                </strong>{" "}
+                – Don't try to deep clean your whole house in one day. Stick to
+                a simple schedule: daily 15-minute quick tidies + one weekly
+                deep-cleaning focus (e.g., bathrooms one week, kitchen the next)
+                = a stress-free, clean home.
               </li>
             </ul>
           </div>
@@ -587,17 +800,22 @@ function BestHomeCleaningTools() {
               Final Thoughts: Build Your Cleaning Toolkit Today
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Investing in the best home cleaning tools saves you time, effort,
-              and money in the long run. From affordable Amazon basics like
-              microfiber cloths to smart helpers like robot vacuums, there’s a
-              tool for every budget and lifestyle.
+              Investing in the <strong>best home cleaning tools</strong> is one
+              of the smartest upgrades you can make for your home. It's not just
+              about a cleaner space—it's about reclaiming your time, reducing
+              your effort, and saving money in the long run. From affordable,
+              indispensable Amazon basics like microfiber cloths to high-tech
+              smart helpers like robot vacuums, there is a perfect tool for
+              every budget and lifestyle.
             </p>
             <p className="text-gray-700 leading-relaxed mb-6">
-              👉 Ready to upgrade your cleaning game? Check out the top-rated
-              Amazon cleaning tools and build your perfect toolkit today.
+              👉 Ready to finally upgrade your cleaning game and stop fighting
+              with old, inefficient tools? Explore the{" "}
+              <strong>top-rated cleaning tools on Amazon</strong> and start
+              building your perfect, stress-free cleaning toolkit today.
             </p>
             <a
-              href="https://www.amazon.com/s?k=home+cleaning+tools"
+              href="https://amzn.to/4oADLzc"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-700 transition"
