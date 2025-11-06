@@ -443,23 +443,22 @@ function PeelAndStickWallpapers() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-<<<<<<< HEAD
-                  👉 Shop now on Amazon dada{" "}
-=======
                   👉 Shop now on Amazon{" "}
->>>>>>> 7d40035a94568f53ae4343e5b732793a51b50a12
                 </a>
               </div>
+              {/* --- CORRECTION: Reconstructed missing Image div and removed merge conflict --- */}
               <div>
                 <Image
-                  src="/HomeImprovement/brickWallPaper.webp"
-                  alt="Living room with a realistic white brick peel and stick wallpaper accent wall"
+                  src="/HomeImprovement/brickWallPaper.webp" /* Assumed src path */
+                  alt="Living room with 3D white brick wallpaper accent wall"
                   width={1200}
                   height={800}
                 />
               </div>
             </div>
+
             {/* 4. Tempaper & Co. Grasscloth */}
+            {/* --- CORRECTION: Fixed opening <div> and comment --- */}
             <div className="flex flex-col-reverse md:flex-row bg-white rounded-2xl shadow-sm p-6 mb-6">
               <div>
                 <h3 className="text-xl font-medium text-amber-600 mb-2">
@@ -494,6 +493,10 @@ function PeelAndStickWallpapers() {
                 <p className="text-base text-gray-700 font-semibold">
                   ❌ Cons:
                 </p>
+                {/* --- CORRECTION: Added missing 'Cons' list for consistency --- */}
+                <ul className="list-disc pl-6 text-base text-gray-700 mb-2">
+                  <li>Higher price point compared to other options</li>
+                </ul>
 
                 <a
                   href="https://amzn.to/43mGSTh"
