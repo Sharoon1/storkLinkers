@@ -130,6 +130,7 @@ function Header() {
         },
       ],
     },
+<<<<<<< HEAD
      {
       title: "Multi-Styler Hair Tool",
       link: "/multi-styler-hair-tool",
@@ -140,6 +141,8 @@ function Header() {
         },
       ],
     },
+=======
+>>>>>>> 7d40035a94568f53ae4343e5b732793a51b50a12
   ];
 
   return (

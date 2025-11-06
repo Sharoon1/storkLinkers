@@ -122,11 +122,14 @@
 	<priority>0.8</priority>
 </url>
 <url>
+<<<<<<< HEAD
 	<loc>https://www.storklinkers.com/multi-styler-hair-tool</loc>
 	<lastmod>2025-11-06T21:17:00+05:00</lastmod>
 	<priority>1</priority>
 </url>
 <url>
+=======
+>>>>>>> 7d40035a94568f53ae4343e5b732793a51b50a12
 	<loc>https://www.storklinkers.com/about</loc>
 	<lastmod>2025-09-04T13:49:12+01:00</lastmod>
 	<priority>0.6</priority>
