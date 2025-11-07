@@ -19,9 +19,9 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  title: "Stork Linkers | Smart Home Solutions & Practical Living Tips",
+  title: "StorkLinkers | Smart Choices. Simplified Living.",
   description:
-    "Discover smart home solutions, artificial grass ideas, and storage tips with Stork Linkers. Affordable, stylish, and practical upgrades for modern living.",
+    "Tired of wasting time exploring endless options? At StorkLinkers, we test, compare, and review products so you can shop smarter and live better. Discover trusted home upgrades, clever tools, and practical ideas designed for modern living.",
 };
 
 export default function RootLayout({ children }) {

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Head from "next/head";
 
 function AirWarp() {
   const categories = [
@@ -27,6 +28,14 @@ function AirWarp() {
 
   return (
     <>
+    <Head>
+    <title>Multi-Styler Hair Tool | Dyson Technology | Stork Linkers</title>
+    <meta
+      name="description"
+      content="Style Boldly, Care Deeply. Discover the Multi-Styler and premium hair tools with Dyson technology background. Protect your hair from heat damage and style smarter, not harsher."
+    />
+    <link rel="canonical" href="https://www.storklinkers.com/multi-styler-hair-tool" />
+</Head>
     <div>
       <div className="relative w-full  h-[30vh] md:h-[50vh] bg-black flex items-center justify-center overflow-hidden">
       {/* Background image section */}
