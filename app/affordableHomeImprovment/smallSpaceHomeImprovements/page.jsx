@@ -18,12 +18,12 @@ const faqs = [
     question:
       "Q2: Will these upgrades actually make a noticeable difference in a very small apartment?",
     answer:
-      "Yes, they are designed for maximum impact in minimal square footage. The strategy is to enhance functionality and create the illusion of more space. Products like under-bed storage and the wall-mounted desk reclaim precious floor area, while smart organizers and vertical storage solutions eliminate clutter. These changes result in a home that not only appears larger but also feels significantly more organized and livable.",
+      "Yes, they are designed for maximum impact in minimal square footage. The strategy is to enhance functionality and create the illusion of more space. Products like under-bed storage and the wall-mounted desks reclaim precious floor area, while smart organizers and vertical storage solutions eliminate clutter. These changes result in a home that not only appears larger but also feels significantly more organized and livable.",
   },
   {
     question: "Q3: How do I choose the best products for my specific needs?",
     answer:
-      "The best approach is to identify your primary 'pain points.' We suggest tackling one area at a time for the best results:\n\n- Struggling with a work-from-home setup? The foldable wall-mounted desk is a transformative solution for creating a dedicated office nook.\n- Kitchen counters constantly cluttered? Magnetic spice racks are a brilliant way to instantly clear valuable prep space.\n- Closet overflowing? An adjustable organizer system can effectively double your storage, making your wardrobe manageable again.",
+      "The best approach is to identify your primary 'pain points.' We suggest tackling one area at a time for the best results:\n\n- Struggling with kitchen prep space? The ONBRILL Rolling Island adds a counter, power, and storage all in one.\n- Living room doubles as your office? The Tangkula Lift Top Coffee Table or Tangkula Foldable Wall Desk creates an instant workstation.\n- Closet overflowing? An adjustable organizer system can effectively double your storage, making your wardrobe manageable again.\n- Need to hang decor without drilling? Command Hooks and Ledges are the perfect damage-free solution.",
   },
 ];
 
@@ -41,7 +41,7 @@ function SmallSpaceHomeImprovements() {
         />
         <link
           rel="canonical"
-          href="https://www.storklinkers.com/affordableHomeImprovment/smallSpaceHomeImprovements"
+          href="https://www.storklinkers.com/affordableHomeImprovement/smallSpaceHomeImprovements"
         />
       </Head>
 
@@ -124,46 +124,43 @@ function SmallSpaceHomeImprovements() {
 
             {/* Product 1 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content Area */}
               <div className="flex-1">
                 <h3 className="text-xl text-amber-600 font-semibold ">
-                  1. Damage-Free Decorating: Command Hooks & Adhesive Strips
+                  1. The Ultimate Space-Saver: Tangkula Foldable Wall Desk
                 </h3>
                 <p className="text-sm text-gray-600">
                   <strong className="text-amber-600">Best for: </strong>
-                  Renter-friendly vertical storage & wall decor
+                  Small apartments, dorm rooms, and compact home offices
                 </p>
                 <p className="mt-2">
-                  It's time to put away the drill and spackle for good.
-                  Command's adhesive hooks and strips are the ultimate hack for
-                  renters and commitment-phobes alike. These innovative
-                  solutions empower you to utilize vertical space—an
-                  often-overlooked asset in small homes—to hang everything from
-                  framed art and keys to floating shelves and kitchen tools.
-                  When you're ready for a change or it's time to move out, they
-                  remove cleanly, preserving your walls and your security
-                  deposit.
+                  Reclaim your floor space with this ingenious fold-out desk. It functions
+                  as a compact storage cabinet with shelves when folded up, but
+                  effortlessly transforms into a spacious and stable workstation when
+                  you need it. It's the perfect solution for small spaces, providing a
+                  full-sized tabletop and extra shelving for laptops, books, and decor
+                  without the permanent footprint of a traditional desk.
                 </p>
                 <ul className="list-disc pl-6 text-gray-700 mt-2 space-y-1">
                   <li>
-                    <strong className="text-amber-600">Pros:</strong> Leaves
-                    walls pristine with no holes or sticky residue, incredibly
-                    simple to apply and remove, versatile for organizing any
-                    room in the house.
+                    <strong className="text-amber-600">Pros:</strong> Excellent
+                    space-saving design (cabinet-to-desk); provides ample storage with
+                    multiple shelves and hooks; durable MDF construction supports up to
+                    44 lbs.
                   </li>
                   <li>
-                    <strong className="text-amber-600">Cons:</strong> Must
-                    adhere strictly to weight limits to prevent items from
-                    falling, may not bond well on heavily textured or vinyl
-                    surfaces.
+                    <strong className="text-amber-600">Cons:</strong> Requires
+                    assembly and must be securely mounted to the wall; tabletop depth
+                    may be limited for larger desktop setups.
                   </li>
                 </ul>
                 <p className="mt-2 text-amber-600 font-medium">
-                  ✅ Pro Tip: Use Command's water-resistant strips in the
-                  bathroom to mount shower caddies, razors, and loofahs,
-                  instantly decluttering your shower and tub corners.
+                  ✅ Pro Tip: Install it at standard desk height for a comfortable
+                  seated workstation, or mount it higher to create a convenient standing
+                  desk or a floating coffee bar.
                 </p>
                 <a
-                  href="https://amzn.to/49aD3UU"
+                  href="https://amzn.to/4oCWTgz" // <-- *** IMPORTANT: Update this link ***
                   className="inline-block bg-amber-600 mt-4 text-white px-4 py-2 rounded-lg shadow hover:bg-amber-700 active:bg-amber-800 transition"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -171,59 +168,60 @@ function SmallSpaceHomeImprovements() {
                   👉 Check Price on Amazon{" "}
                 </a>
               </div>
+
+              {/* Image Area */}
               <div className="md:w-1/3 flex items-center">
                 <Image
-                  src="/HomeImprovement/ReplacementStrips.webp"
-                  alt="Command Indoor Large Replacement Strips"
+                  src="/HomeImprovement/FoldableWallDesk.webp" // <-- *** IMPORTANT: Update this image path ***
+                  alt="Tangkula Foldable Wall Mounted Desk in a room"
                   width={1400}
                   height={1000}
                   className="rounded-lg object-cover"
                 />
               </div>
             </div>
-
             {/* Product 2 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content Area */}
               <div className="flex-1">
                 <h3 className="text-xl font-semibold text-amber-600">
-                  2. The DIY Powerhouse: BLACK+DECKER 20V MAX Cordless Drill
+                  2. The Multi-Functional Hub: ONBRILL Rolling Kitchen Island
                 </h3>
                 <p className="text-sm text-gray-600">
                   <strong className="text-amber-600">Best for:</strong>
-                  Effortless furniture assembly & basic home repairs
+                  Expanding kitchen prep space, smart storage & a mobile serving station
                   <br />
                   <strong className="text-amber-600">Brand Suggestion:</strong>
-                  BLACK+DECKER 20V MAX
+                  ONBRILL
                 </p>
                 <p className="mt-2">
-                  Every resident of a compact space needs a reliable tool for
-                  assembling flat-pack furniture, hanging curtain rods, or
-                  tackling minor repairs. This compact cordless drill is the
-                  perfect companion, offering enough power for common household
-                  tasks without the bulk of a professional-grade model. It's the
-                  empowering tool that transforms a frustrating task into a
-                  satisfying DIY victory.
+                  This rolling kitchen island is a true workhorse for any kitchen
+                  needing more counter space and storage. It features a spacious
+                  countertop with a foldable drop-leaf, instantly creating extra room for
+                  food prep or casual dining. With a built-in power outlet, drawers,
+                  cabinets, and even dedicated spice and towel racks, it consolidates all
+                  your essentials into one mobile and convenient hub.
                 </p>
                 <ul className="list-disc pl-6 text-gray-700 mt-2 space-y-1">
                   <li>
                     <strong className="text-amber-600">Pros:</strong>{" "}
-                    Lightweight and ergonomic design, free from cumbersome cords
-                    for easy maneuvering, impressive battery life for multiple
-                    projects.
+                    Integrated power outlet (1500W) with 2 USB ports, expandable
+                    drop-leaf countertop for extra space, ample storage (cabinets,
+                    drawers, spice rack), lockable wheels for mobility and stability.
                   </li>
                   <li>
-                    <strong className="text-amber-600">Cons:</strong> Lacks the
-                    torque for heavy-duty jobs like drilling into masonry, and
-                    starter kits often have a limited selection of bits.
+                    <strong className="text-amber-600">Cons:</strong> Assembly is
+                    required, and its large size (108.2 lbs) may be heavy to move,
+                    even with wheels.
                   </li>
                 </ul>
                 <p className="mt-2 text-amber-600 font-medium">
-                  ✅ Pro Tip: Opt for a drill kit that includes a comprehensive
-                  set of driver and drill bits. This small upfront investment
-                  ensures you are prepared for any screw type or small project.
+                  ✅ Pro Tip: Use the drop-leaf as a breakfast bar or serving station when
+                  entertaining. The built-in power outlet is perfect for running a
+                  blender or stand mixer without cluttering your main counters.
                 </p>
                 <a
-                  href="https://amzn.to/4n9mXhJ"
+                  href="https://amzn.to/47XvTT3" // <-- *** IMPORTANT: Update this link ***
                   className="inline-block bg-amber-600 mt-4 text-white px-4 py-2 rounded-lg shadow hover:bg-amber-700 active:bg-amber-800 transition"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -231,10 +229,12 @@ function SmallSpaceHomeImprovements() {
                   👉 Check Price on Amazon{" "}
                 </a>
               </div>
+
+              {/* Image Area */}
               <div className="md:w-1/3 flex items-center">
                 <Image
-                  src="/HomeImprovement/CordlessDrill.webp"
-                  alt="A BLACK+DECKER 20V MAX cordless drill"
+                  src="/HomeImprovement/KitchenIsland.webp" // <-- *** IMPORTANT: Update this image path ***
+                  alt="ONBRILL 60-inch rolling kitchen island with drop leaf and power outlet"
                   width={1400}
                   height={1000}
                   className="rounded-lg object-cover"
@@ -287,8 +287,8 @@ function SmallSpaceHomeImprovements() {
                 <Image
                   src="/HomeImprovement/underbedstorage.webp"
                   alt="Wheeled under-bed storage containers"
-                  width={1400}
-                  height={1000}
+                  width={900}
+                  height={400}
                   className="rounded-lg object-cover"
                 />
               </div>
@@ -296,42 +296,40 @@ function SmallSpaceHomeImprovements() {
 
             {/* Product 4 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content Area */}
               <div className="flex-1">
                 <h3 className="text-xl font-semibold text-amber-600">
-                  4. Instant Ambiance Upgrade: Govee Smart LED Strip Lights
+                  4. The Hidden Workstation: Tangkula Lift Top Coffee Table
                 </h3>
                 <p className="text-sm text-gray-600">
                   <strong className="text-amber-600">Best for:</strong>
-                  Creating modern accent & customizable mood lighting
+                  Working from the couch, small living rooms & hidden storage
                   <br />
                   <strong className="text-amber-600"> Brand Suggestion:</strong>
-                  Govee Smart LED Strip
+                  Tangkula
                 </p>
                 <p className="mt-2">
-                  Completely redefine the atmosphere of a room in just a few
-                  minutes. Smart LED strips are an affordable and highly
-                  effective way to add a layer of modern sophistication. Place
-                  them behind your TV for a cinematic bias lighting effect,
-                  under kitchen cabinets for brighter task lighting, or along a
-                  headboard to create a cozy, boutique hotel vibe. Control
-                  colors and brightness right from your phone.
+                  This table is the perfect 2-in-1 solution for small living rooms. It
+                  functions as a stylish coffee table, but the innovative top lifts up
+                  and forward (from 19" to 24.5" high), transforming it into a
+                  comfortable desk for working or dining from your couch. It also reveals
+                  a large hidden compartment, perfect for stashing laptops, remotes, and
+                  clutter, while the open shelves below offer even more storage.
                 </p>
                 <ul className="list-disc pl-6 text-gray-700 mt-2 space-y-1">
                   <li>
-                    <strong className="text-amber-600"> Pros:</strong> Offers
-                    millions of color options via a smartphone app, an easy
-                    entry point into smart home technology, simple
-                    peel-and-stick application.
+                    <strong className="text-amber-600"> Pros:</strong> Top lifts to a
+                    comfortable 24.5" desk height, reveals a large hidden storage
+                    compartment, and features three additional open-storage sections.
                   </li>
                   <li>
-                    <strong className="text-amber-600">Cons:</strong> The
-                    adhesive backing can lose strength over time, especially in
-                    humid conditions; requires careful placement for a clean,
-                    professional look.
+                    <strong className="text-amber-600">Cons:</strong> Assembly is
+                    required, and at 60 lbs, it's not easily moved; the lift-top is
+                    best for laptops, not extremely heavy equipment.
                   </li>
                 </ul>
                 <a
-                  href="https://amzn.to/4ol1tPS"
+                  href="https://amzn.to/47DEcU9" // <-- *** IMPORTANT: Update this link ***
                   className="inline-block bg-amber-600 mt-4 text-white px-4 py-2 rounded-lg shadow hover:bg-amber-700 active:bg-amber-800 transition"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -339,10 +337,12 @@ function SmallSpaceHomeImprovements() {
                   👉 Check Price on Amazon{" "}
                 </a>
               </div>
+
+              {/* Image Area */}
               <div className="md:w-1/3 flex items-center">
                 <Image
-                  src="/HomeImprovement/LedStripLights.webp"
-                  alt="Smart LED strip lights creating ambient lighting behind a TV"
+                  src="/HomeImprovement/Wood Lift Top.webp" // <-- *** IMPORTANT: Update this image path ***
+                  alt="Tidewhitelake wood lift-top coffee table with hidden storage"
                   width={1400}
                   height={1000}
                   className="rounded-lg object-cover"
@@ -350,7 +350,8 @@ function SmallSpaceHomeImprovements() {
               </div>
             </div>
 
-            {/* Product 5 */}
+            {/* Product 5 (Replaced generic desk with Command) */}
+              {/* Product 5 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
               <div className="flex-1">
                 <h3 className="text-xl font-semibold text-amber-600">
@@ -389,25 +390,45 @@ function SmallSpaceHomeImprovements() {
                   complete, self-contained workstation without taking up floor
                   space.
                 </p>
+
                 <a
+
                   href="https://amzn.to/3WIvFZA"
+
                   className="inline-block bg-amber-600 mt-4 text-white px-4 py-2 rounded-lg shadow hover:bg-amber-700 active:bg-amber-800 transition"
+
                   target="_blank"
+
                   rel="noopener noreferrer"
+
                 >
+
                   👉 View on Amazon{" "}
+
                 </a>
+
               </div>
+
               <div className="md:w-1/3 flex items-center">
+
                 <Image
+
                   src="/HomeImprovement/WallMountedDesk.webp"
+
                   alt="A foldable wall-mounted desk in a small living space"
+
                   width={1400}
+
                   height={1000}
+
                   className="rounded-lg object-cover"
+
                 />
+
               </div>
+
             </div>
+
 
             {/* Product 6 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
@@ -444,7 +465,7 @@ function SmallSpaceHomeImprovements() {
                   </li>
                 </ul>
                 <a
-                  href="https://amzn.to/43uxrRN"
+                  href="https://amzn.to/491D7Xc"
                   className="inline-block bg-amber-600 mt-4 text-white px-4 py-2 rounded-lg shadow hover:bg-amber-700 active:bg-amber-800 transition"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -567,57 +588,67 @@ function SmallSpaceHomeImprovements() {
               </div>
             </div>
 
-            {/* Product 9 */}
+            {/* Product 9 (Fixed numbering) */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
+              {/* Text Content Area */}
               <div className="flex-1">
                 <h3 className="text-xl font-semibold text-amber-600">
-                  9. The Fix-It Foundation: A Compact All-in-One Tool Kit
+                  9. The "Disappearing" Desk: GOYLSER Wall-Mounted Table
                 </h3>
                 <p className="text-sm text-gray-600">
+                  <strong className="text-amber-600">Best for:</strong>
+                  Maximizing floor space, laundry rooms & compact workstations
+                  <br />
                   <strong className="text-amber-600">Brand Suggestion:</strong>
-                  DEKOPRO 168-Piece Kit
+                  GOYLSER
                 </p>
                 <p className="mt-2">
-                  For quick fixes, hanging pictures, and assembling new
-                  furniture, a basic tool kit is an absolute must-have. This
-                  comprehensive set provides everything you'll need for common
-                  household tasks—a hammer, pliers, screwdrivers, a tape
-                  measure, and more—all neatly arranged in a slim case that can
-                  be easily tucked away in a closet or under a sink.
+                  Reclaim your floor space without sacrificing function. This
+                  wall-mounted table provides a generous 47-inch surface for meal prep,
+                  laundry folding, or a full-sized workstation. When you're finished,
+                  it folds down flat against the wall, virtually disappearing. It's the
+                  ideal solution for adding a sturdy, functional surface to small
+                  kitchens, narrow hallways, or garages.
                 </p>
                 <ul className="list-disc pl-6 text-gray-700 mt-2 space-y-1">
                   <li>
-                    <strong className="text-amber-600">Pros:</strong> Perfectly
-                    organized in a durable, portable case; contains all the
-                    essentials for everyday home maintenance; a smart investment
-                    that saves money on handyman calls.
+                    <strong className="text-amber-600">Pros:</strong> Excellent
+                    space-saving fold-down design, large 47-inch work surface, made from
+                    durable natural wood, versatile for use as a desk, laundry, or
+                    kitchen table.
                   </li>
                   <li>
-                    <strong className="text-amber-600">Cons:</strong> These are
-                    consumer-grade tools, not intended for professional,
-                    heavy-duty use; does not include any power tools.
+                    <strong className="text-amber-600">Cons:</strong> Requires
+                    careful wall-mounted installation; must be secured into wall studs
+                    or solid supporting strips (not just drywall) to be sturdy.
                   </li>
                 </ul>
+                <p className="mt-2 text-amber-600 font-medium">
+                  ✅ Pro Tip: Use the included spirit level to ensure the brackets are
+                  perfectly aligned during installation. This guarantees the table folds
+                  smoothly and sits level when open.
+                </p>
                 <a
-                  href="https://amzn.to/48EvfdX"
+                  href="https://amzn.to/4qOjN63" // <-- *** IMPORTANT: Update this link ***
                   className="inline-block bg-amber-600 mt-4 text-white px-4 py-2 rounded-lg shadow hover:bg-amber-700 active:bg-amber-800 transition"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  👉 View Deal{" "}
+                  👉 Check Price on Amazon{" "}
                 </a>
               </div>
+
+              {/* Image Area */}
               <div className="md:w-1/3 flex items-center">
                 <Image
-                  src="/HomeImprovement/ToolKit.webp"
-                  alt="A compact all-in-one tool kit in its case"
+                  src="/HomeImprovement/wallMounted.webp" // <-- *** IMPORTANT: Update this image path ***
+                  alt="GOYLSER wall-mounted folding table shown as a desk"
                   width={1400}
                   height={1000}
                   className="rounded-lg object-cover"
                 />
               </div>
             </div>
-
             {/* Product 10 */}
             <div className="flex flex-col-reverse md:flex-row gap-5 border border-gray-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition">
               <div className="flex-1">
@@ -671,6 +702,7 @@ function SmallSpaceHomeImprovements() {
               </div>
             </div>
           </div>
+          {/* UPDATED COMPARISON TABLE */}
           <div className="overflow-x-auto my-12">
             <h2 id="tool-comparison-table" className="text-2xl font-bold mb-4">
               🧾 Comparison Table: Quick Overview
@@ -685,56 +717,54 @@ function SmallSpaceHomeImprovements() {
               </thead>
               <tbody>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">Command Hooks/Ledges</td>
-                  <td className="border px-4 py-2">Damage-free hanging</td>
-                  <td className="border px-4 py-2">Removes cleanly</td>
+                  <td className="border px-4 py-2">Tangkula Foldable Wall Desk</td>
+                  <td className="border px-4 py-2">Cabinet-style workspace</td>
+                  <td className="border px-4 py-2">Folds into a storage cabinet</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">Cordless Drill Kit</td>
-                  <td className="border px-4 py-2">Furniture assembly</td>
-                  <td className="border px-4 py-2">Portable & versatile</td>
+                  <td className="border px-4 py-2">ONBRILL Rolling Kitchen Island</td>
+                  <td className="border px-4 py-2">Expanding kitchen prep space</td>
+                  <td className="border px-4 py-2">Drop-leaf & built-in power</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Under-bed Storage</td>
-                  <td className="border px-4 py-2">Hidden clothing storage</td>
+                  <td className="border px-4 py-2">Hidden seasonal storage</td>
                   <td className="border px-4 py-2">Wheels for easy access</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">LED Strip Lights</td>
-                  <td className="border px-4 py-2">Ambiance & mood lighting</td>
-                  <td className="border px-4 py-2">Smart color control</td>
+                  <td className="border px-4 py-2">Tangkula Lift Top Coffee Table</td>
+                  <td className="border px-4 py-2">Work-from-couch solution</td>
+                  <td className="border px-4 py-2">Lifts to desk height</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">Wall-Mounted Desk</td>
-                  <td className="border px-4 py-2">Disappearing workspace</td>
-                  <td className="border px-4 py-2">
-                    Folds to save floor space
-                  </td>
+                  <td className="border px-4 py-2">Foldable Wall-Mounted Desk	</td>
+                  <td className="border px-4 py-2">Creating a dedicated workspace in any room</td>
+                  <td className="border px-4 py-2">Wall-Mounted Design, Fold-Down Surface, Discreet & Minimalist</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">Magnetic Spice Racks</td>
-                  <td className="border px-4 py-2">Kitchen organization</td>
-                  <td className="border px-4 py-2">Zero-install setup</td>
+                  <td className="border px-4 py-2">Magnetic Utility Racks</td>
+                  <td className="border px-4 py-2">Kitchen counter decluttering</td>
+                  <td className="border px-4 py-2">Zero-install (sticks to fridge)</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">Sensor Night Lights</td>
-                  <td className="border px-4 py-2">Automated safe lighting</td>
-                  <td className="border px-4 py-2">Motion-activated</td>
+                  <td className="border px-4 py-2">Motion Sensor Lights</td>
+                  <td className="border px-4 py-2">Automated hallway/closet light</td>
+                  <td className="border px-4 py-2">USB-rechargeable</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">Over-the-Door Rack</td>
+                  <td className="border px-4 py-2">Over-the-Door Organizer</td>
                   <td className="border px-4 py-2">Instant vertical storage</td>
-                  <td className="border px-4 py-2">No drilling required</td>
+                  <td className="border px-4 py-2">Hangs on any door</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">All-in-One Tool Kit</td>
-                  <td className="border px-4 py-2">Basic home maintenance</td>
-                  <td className="border px-4 py-2">Compact & comprehensive</td>
+                  <td className="border px-4 py-2">GOYLSER Wall-Mounted Table</td>
+                  <td className="border px-4 py-2">Disappearing dining/laundry table</td>
+                  <td className="border px-4 py-2">Folds flat against the wall</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="border px-4 py-2">Closet Organizer</td>
+                  <td className="border px-4 py-2">Closet Organizer System</td>
                   <td className="border px-4 py-2">Doubling closet space</td>
-                  <td className="border px-4 py-2">Customizable tiers</td>
+                  <td className="border px-4 py-2">Adjustable hanging rods</td>
                 </tr>
               </tbody>
             </table>

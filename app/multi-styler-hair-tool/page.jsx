@@ -105,10 +105,10 @@ function AirWarp() {
 
       {/* --- 3. Top Category Cards: 2-Cards (from Image 3) --- */}
       <section className="py-12 md:py-16 bg-white">
-        <div id='product' className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div id='product' className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Card 1: Beauty */}
-            <div className="relative h-[500px] bg-black text-white flex flex-col justify-end p-8 overflow-hidden rounded-lg">
+            <div  className="relative h-[500px] bg-black text-white flex flex-col justify-end p-8 overflow-hidden rounded-lg">
               <img
                 src="/HairStyles/Airwrap i.d.webp" // <-- ADD YOUR BEAUTY IMAGE HERE
                 alt="Beauty product"

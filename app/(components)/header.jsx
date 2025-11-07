@@ -75,7 +75,7 @@ function Header() {
           link: "/affordableHomeImprovment/affordableHomeLighting",
         },
         {
-          name: "Top 10 Tools Under $50",
+          name: "Top 10 DIY Tools Under $50",
           link: "/affordableHomeImprovment/amazoneHomeToolsTop10",
         },
         {
@@ -215,7 +215,7 @@ function Header() {
                   {/* Mega Dropdown */}
                   {activeMenu === idx && (
                     <div
-                      className="fixed left-0 top-19 hidden group-hover:flex transition-opacity duration-3000 opacity-0 group-hover:opacity-100
+                      className="fixed left-0 top-15 hidden group-hover:flex transition-opacity duration-3000 opacity-0 group-hover:opacity-100
   w-screen bg-white shadow-lg border-t border-gray-200 z-50"
                     >
                       <div
