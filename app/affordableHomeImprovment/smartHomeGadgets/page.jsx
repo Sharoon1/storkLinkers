@@ -252,7 +252,7 @@ function SmartHomeGadgets() {
               </div>
               {/* 2 */}
               <div className="flex flex-col-reverse md:flex-row bg-white rounded-2xl shadow-sm p-6 mb-6">
-                <div className="px-5">
+                <div id="OutdoorSecurity" className="px-5">
                   <h3 className="text-amber-600 text-xl">
                     2. WYZE Duo Cam Pan – Smart 2K Indoor/Outdoor Security
                     Camera
@@ -623,11 +623,10 @@ function SmartHomeGadgets() {
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Budget Security</td>
-                  <td className="border px-4 py-2">Wyze Cam v3</td>
+                  <td className="border px-4 py-2"><a href="#OutdoorSecurity">Wyze Cam v3</a></td>
                   <td className="border px-4 py-2">
                     Color night vision & weatherproof
                   </td>
-                  <td className="border px-4 py-2">~$35</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="border px-4 py-2">Mood Lighting</td>
