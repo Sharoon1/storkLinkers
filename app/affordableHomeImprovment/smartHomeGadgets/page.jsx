@@ -404,8 +404,7 @@ function SmartHomeGadgets() {
               <div className="flex flex-col-reverse md:flex-row bg-white rounded-2xl shadow-sm p-6 mb-6">
                 <div className="px-5">
                   <h3 className="text-amber-600 text-xl">
-                    6. August Wi-Fi Smart Lock (4th Gen) – The Keyless Wonder
-                  </h3>
+6. Philips Smart Lock with Handles                  </h3>
                   <p>
                     Never fumble for your keys again. This smart lock attaches
                     to your existing deadbolt, allowing you to lock and unlock
@@ -421,7 +420,7 @@ function SmartHomeGadgets() {
                     Modernizing your home's entry and access control.
                     <br />{" "}
                     <a
-                      href="https://amzn.to/4h8f5vv"
+                      href="https://amzn.to/4p3Jq0X"
                       className="inline-block bg-amber-600 mt-4 text-white px-4 py-2 rounded-lg shadow hover:bg-amber-700 active:bg-amber-800 transition"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -432,10 +431,10 @@ function SmartHomeGadgets() {
                 </div>
                 <Image
                   className=" rounded-2xl border-0 "
-                  src="/HomeImprovement/AugustSmartLock.webp" /* UPDATE IMAGE PATH */
+                  src="/HomeImprovement/doorLock.webp" /* UPDATE IMAGE PATH */
                   alt="August Wi-Fi Smart Lock"
-                  width={400}
-                  height={300}
+                  width={250}
+                  height={100}
                 />
               </div>
               {/* 7 - FIXED */}
