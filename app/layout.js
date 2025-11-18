@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import FacebookPixel from "./(components)/facebookPixels";
 import { Poppins, Open_Sans } from "next/font/google";
 import Footer from "./(components)/footer";
 import Header from "./(components)/header";
@@ -112,6 +112,8 @@ export default function RootLayout({ children }) {
       </head>
 
       <body>
+        {/* 2. PLACE THE PIXEL COMPONENT HERE, right after <body> */}
+        <FacebookPixel />
         <Header />
         {children}
         <Footer />
